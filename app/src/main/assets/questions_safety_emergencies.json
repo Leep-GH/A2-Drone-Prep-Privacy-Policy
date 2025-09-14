@@ -1,0 +1,704 @@
+[
+  {
+    "id": "se_001",
+    "topic": "Safety & Emergencies",
+    "stem": "During flight, you completely lose the control signal to your drone. What is the most likely action the drone will take?",
+    "options": [
+      "Land immediately wherever it is.",
+      "Hover in place until the signal is restored.",
+      "Initiate its pre-set failsafe procedure, which is usually Return-to-Home (RTH).",
+      "Fly upwards to try and find a better signal."
+    ],
+    "correctIndex": 2,
+    "explanation": "Modern drones are equipped with a failsafe function. In the event of a lost control link, the default action is typically to climb to the pre-set RTH altitude and fly back to the take-off point.",
+    "tip": "This is why setting a safe RTH altitude before every flight is one of the most important safety actions you can take."
+  },
+  {
+    "id": "se_002",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the primary danger of a 'thermal runaway' in a LiPo battery?",
+    "options": [
+      "A gradual loss of voltage.",
+      "The battery swelling up slightly.",
+      "An uncontrollable, explosive fire that is very difficult to extinguish.",
+      "The battery refusing to charge again."
+    ],
+    "correctIndex": 2,
+    "explanation": "Thermal runaway is a catastrophic chemical reaction inside the battery, often caused by damage or overcharging. It generates intense heat and fire and can release toxic smoke.",
+    "tip": "Never use a damaged or puffed battery. Always charge LiPos in a fire-resistant bag or container and on a non-flammable surface."
+  },
+  {
+    "id": "se_003",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the safest way to dispose of a damaged or end-of-life LiPo battery?",
+    "options": [
+      "Put it in your regular household rubbish.",
+      "Puncture it to release any stored energy.",
+      "Discharge it completely in a saltwater bath and take it to a battery recycling centre.",
+      "Store it in a fireproof bag indefinitely."
+    ],
+    "correctIndex": 2,
+    "explanation": "LiPo batteries are hazardous waste. The accepted safe method is to fully discharge them (a saltwater bath is one way) to make them inert before taking them to a proper recycling facility that handles them.",
+    "tip": "Never puncture a LiPo battery; this can cause an explosive fire."
+  },
+  {
+    "id": "se_004",
+    "topic": "Safety & Emergencies",
+    "stem": "You are flying when a low-flying helicopter appears nearby. What is your immediate responsibility?",
+    "options": [
+      "Hover and wait for the helicopter to pass.",
+      "Attempt to fly above the helicopter.",
+      "Give way by landing your drone as quickly and safely as possible.",
+      "Continue your flight as normal as the helicopter should see you."
+    ],
+    "correctIndex": 2,
+    "explanation": "Unmanned aircraft must always give way to manned aircraft. The safest and most correct action is to land immediately to ensure you are clear of the helicopter's flight path.",
+    "tip": "Never assume a manned aircraft can see your small drone. The responsibility to avoid a collision is always yours."
+  },
+  {
+    "id": "se_005",
+    "topic": "Safety & Emergencies",
+    "stem": "In the event of a 'fly-away' where the drone becomes completely unresponsive, what should be your first priority?",
+    "options": [
+      "Try to follow it to recover the hardware.",
+      "Turn the controller off and on again.",
+      "Track its last known direction and speed to warn Air Traffic Control and the police of the hazard.",
+      "Delete the flight logs to remove evidence."
+    ],
+    "correctIndex": 2,
+    "explanation": "Once control is lost, the drone is an airborne hazard. The immediate priority shifts from recovery to public safety. Informing the authorities allows them to warn other air users.",
+    "tip": "Have the contact number for local ATC and police ready as part of your emergency procedures."
+  },
+  {
+    "id": "se_006",
+    "topic": "Safety & Emergencies",
+    "stem": "What should your first action be if you see a child run towards your designated landing area as you are on final approach?",
+    "options": [
+      "Shout at the child to move away.",
+      "Continue the landing as planned.",
+      "Execute a 'go-around' by aborting the landing and climbing to a safe altitude.",
+      "Turn off the drone's motors."
+    ],
+    "correctIndex": 2,
+    "explanation": "The immediate priority is the safety of the child. A 'go-around' is a standard aviation manoeuvre where a landing is aborted. Applying power and climbing away allows you to reassess the situation from a safe altitude.",
+    "tip": "Always have an escape plan in mind during take-off and landing."
+  },
+  {
+    "id": "se_007",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the safest way to stop a LiPo battery fire?",
+    "options": [
+      "Pour water on it.",
+      "Use a specialist Class D fire extinguisher or smother it with sand or salt.",
+      "Blow on it to extinguish the flames.",
+      "Cover it with a wet towel."
+    ],
+    "correctIndex": 1,
+    "explanation": "LiPo fires are chemical fires. Water can react with the lithium and make it worse. A Class D extinguisher (for combustible metals) or a large amount of dry sand/salt is the recommended method to smother the flames.",
+    "tip": "Have a suitable fire extinguisher or a bucket of sand available if you are charging a large number of batteries."
+  },
+  {
+    "id": "se_008",
+    "topic": "Safety & Emergencies",
+    "stem": "You have a critical battery failure and your drone is falling towards a group of people. What should you do?",
+    "options": [
+      "Run away from the scene.",
+      "Shout a clear, loud warning such as 'Warning! Drone falling!' to alert the people.",
+      "Take a video of the incident for your logbook.",
+      "Do nothing, as there is nothing that can be done."
+    ],
+    "correctIndex": 1,
+    "explanation": "Even if you have lost control, you still have a duty of care. A loud, clear verbal warning may give people a few crucial seconds to look up and move out of the way, potentially preventing injury.",
+    "tip": "This should be part of your pre-briefed emergency procedures."
+  },
+  {
+    "id": "se_009",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the primary purpose of a LiPo-safe charging bag?",
+    "options": [
+      "To keep the batteries warm.",
+      "To carry the batteries easily.",
+      "To contain a fire and vent the gases safely in the event of a battery malfunction during charging.",
+      "To charge the batteries faster."
+    ],
+    "correctIndex": 2,
+    "explanation": "LiPo bags are made of fire-resistant materials. They are designed to contain the initial flames and intense heat of a battery fire, preventing it from spreading to the surrounding area.",
+    "tip": "A LiPo bag is a cheap and essential piece of safety equipment. Use one for charging, storage, and transport."
+  },
+  {
+    "id": "se_010",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the primary danger of a 'hard landing'?",
+    "options": [
+      "It can cause unseen structural damage to the drone's airframe or components.",
+      "It is embarrassing for the pilot.",
+      "It can scratch the propellers.",
+      "It makes a loud noise."
+    ],
+    "correctIndex": 0,
+    "explanation": "A hard landing puts significant stress on the airframe, arms, and landing gear. This can create micro-fractures or damage internal components that are not immediately obvious, but could fail on a subsequent flight.",
+    "tip": "After any hard landing, perform a thorough inspection of the entire aircraft before deeming it airworthy again."
+  },
+  {
+    "id": "se_011",
+    "topic": "Safety & Emergencies",
+    "stem": "You are flying a quadcopter and one motor fails. What is the most likely outcome?",
+    "options": [
+      "The drone will continue to fly normally on the remaining three motors.",
+      "The drone will enter an uncontrollable spin and fall from the sky.",
+      "The drone will automatically land safely.",
+      "The drone will hover perfectly in place."
+    ],
+    "correctIndex": 1,
+    "explanation": "A standard quadcopter relies on all four motors for stability and control. The loss of one motor will create an asymmetrical thrust that the flight controller cannot counteract, leading to an immediate loss of controlled flight.",
+    "tip": "Some larger hexacopters or octocopters can survive a single motor failure."
+  },
+  {
+    "id": "se_012",
+    "topic": "Safety & Emergencies",
+    "stem": "The 'Swiss cheese model' of accident causation suggests that:",
+    "options": [
+      "Accidents are usually caused by a single, catastrophic failure.",
+      "Most accidents are unavoidable.",
+      "Accidents happen when holes in multiple layers of defence or safety systems line up.",
+      "Cheese is a good snack to take on a drone job."
+    ],
+    "correctIndex": 2,
+    "explanation": "This model visualises a safety system as a stack of cheese slices, each with holes (weaknesses). An accident occurs when all the holes line up, allowing a hazard to pass through all the layers of defence (e.g., pilot error, mechanical failure, poor weather).",
+    "tip": "Your job as a pilot is to add as many robust 'slices of cheese' (checklists, risk assessments, training) as possible to prevent the holes from aligning."
+  },
+  {
+    "id": "se_013",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the primary risk of using a damaged (e.g., dented) LiPo battery?",
+    "options": [
+      "It will provide less flight time.",
+      "It may not fit in the drone properly.",
+      "The internal structure may be compromised, creating a high risk of a short circuit and fire.",
+      "The warranty will be voided."
+    ],
+    "correctIndex": 2,
+    "explanation": "Physical damage can compromise the delicate layers inside a LiPo cell, potentially causing an internal short circuit. This can lead to a sudden and violent thermal runaway, either during charging, storage, or in flight.",
+    "tip": "Any battery that has been dropped or sustained physical damage should be treated with extreme caution and safely disposed of."
+  },
+  {
+    "id": "se_014",
+    "topic": "Safety & Emergencies",
+    "stem": "The pilot in command has the final authority to deviate from any rule to the extent required to meet an in-flight emergency. This is known as:",
+    "options": [
+      "The rule of common sense.",
+      "The pilot's discretion.",
+      "The Commander's Emergency Authority.",
+      "Illegal flight."
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a fundamental principle of aviation. In a genuine emergency, the pilot is authorised to break any rule (e.g., fly over people, exceed the height limit) if it is absolutely necessary to resolve the emergency and ensure the safety of life.",
+    "tip": "This authority is for genuine emergencies only and the pilot must be prepared to justify their actions afterwards."
+  },
+  {
+    "id": "se_015",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the recommended state of charge for long-term storage (more than a week) of LiPo batteries?",
+    "options": [
+      "100% (Fully charged)",
+      "0% (Fully discharged)",
+      "40-60% of full capacity",
+      "It does not matter"
+    ],
+    "correctIndex": 2,
+    "explanation": "Storing LiPo batteries at full charge or fully discharged for long periods degrades their chemical structure and lifespan. A storage charge of around 3.8V per cell (40-60%) is optimal.",
+    "tip": "Many smart chargers have a 'storage' function that will automatically charge or discharge your batteries to the correct level."
+  },
+  {
+    "id": "se_016",
+    "topic": "Safety & Emergencies",
+    "stem": "If your drone's flight controller fails completely, what is the most likely result?",
+    "options": [
+      "The drone will switch to ATTI mode.",
+      "The drone will RTH.",
+      "The drone will become completely uncontrollable and will likely fall.",
+      "The drone will hover perfectly."
+    ],
+    "correctIndex": 2,
+    "explanation": "The flight controller is the 'brain' of the drone. If it fails, there is nothing to control the motors and keep the aircraft stable. This is a catastrophic failure from which recovery is highly unlikely.",
+    "tip": "This is why firmware updates and pre-flight system checks are so important."
+  },
+  {
+    "id": "se_017",
+    "topic": "Safety & Emergencies",
+    "stem": "You are flying and notice your battery voltage is dropping much faster than expected. This could be a sign of:",
+    "options": [
+      "A failing battery cell and an impending power failure.",
+      "Normal operation in cold weather.",
+      "A strong GPS signal.",
+      "A problem with the camera."
+    ],
+    "correctIndex": 0,
+    "explanation": "A rapid voltage drop under load is a classic symptom of a damaged or failing battery cell. This is a critical emergency, as it could lead to a complete power loss with little warning.",
+    "tip": "If you see this happening, do not trust the percentage remaining. Abort the mission and land immediately."
+  },
+  {
+    "id": "se_018",
+    "topic": "Safety & Emergencies",
+    "stem": "In the event of a minor injury to a member of the public (e.g., a small cut from a propeller after an emergency landing), what should be your first priority?",
+    "options": [
+      "Take photos of the injury for your records.",
+      "Render first aid and call for medical assistance if necessary.",
+      "Get the person's contact details for your insurance company.",
+      "Leave the scene to avoid getting into trouble."
+    ],
+    "correctIndex": 1,
+    "explanation": "Your immediate priority is the wellbeing of the injured person. Securing the drone to make it safe is next, followed by rendering aid. All other actions (reporting, documentation) come after the immediate medical needs have been addressed.",
+    "tip": "Having a first-aid kit as part of your standard equipment is highly recommended."
+  },
+  {
+    "id": "se_019",
+    "topic": "Safety & Emergencies",
+    "stem": "What does a 'take-off prohibited' warning from your drone's geo-awareness system usually mean?",
+    "options": [
+      "The wind is too strong.",
+      "The battery is too low.",
+      "You are inside a restricted airspace zone, like an airport's FRZ.",
+      "The camera's memory card is full."
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a safety feature to prevent pilots from accidentally taking off inside a known flight restriction zone. The drone's GPS position is checked against a database, and if it's in a no-fly zone, the motors will be prevented from starting.",
+    "tip": "This is a last line of defence. A responsible pilot will have already identified they are in an FRZ through proper pre-flight planning."
+  },
+  {
+    "id": "se_020",
+    "topic": "Safety & Emergencies",
+    "stem": "You are required to land immediately due to an emergency. You are over a wooded area. What is the best strategy?",
+    "options": [
+      "Aim for the tallest, thickest tree to cushion the impact.",
+      "Aim for a small clearing or the top of the smallest, bushiest tree you can reach.",
+      "Cut the motors and let it fall.",
+      "Try to fly out of the wooded area, even if battery is critical."
+    ],
+    "correctIndex": 1,
+    "explanation": "An uncontrolled crash into a large tree is likely to destroy the aircraft. Aiming for a clearing is ideal. If not possible, the top of a smaller, bushier tree can be a better option to slow the descent and minimize damage compared to a fall from height.",
+    "tip": "This is a classic decision-making scenario where you must choose the 'least bad' option."
+  },
+  {
+    "id": "se_021",
+    "topic": "Safety & Emergencies",
+    "stem": "What does the 'ALARP' principle in risk management stand for?",
+    "options": [
+      "A Large And Risky Proposition.",
+      "As Low As Reasonably Practicable.",
+      "Always Land And Re-Plan.",
+      "Aviation Law And Regulation Policy."
+    ],
+    "correctIndex": 1,
+    "explanation": "ALARP is a principle that states that risks should be reduced to a level that is 'as low as reasonably practicable'. This means you are not expected to eliminate all risk, but you must take all reasonably practical steps to control it.",
+    "tip": "This is the core philosophy behind a good risk assessment. You identify risks and then apply mitigations until the remaining risk level is ALARP."
+  },
+  {
+    "id": "se_022",
+    "topic": "Safety & Emergencies",
+    "stem": "A 'near miss' with a manned aircraft should be reported to whom?",
+    "options": [
+      "The drone manufacturer.",
+      "The UK Airprox Board (UKAB).",
+      "The police only.",
+      "No one, if no collision occurred."
+    ],
+    "correctIndex": 1,
+    "explanation": "Any incident where the safety of aircraft was compromised, including a near miss (an 'Airprox'), should be reported to the UK Airprox Board. This allows them to investigate and helps prevent future incidents.",
+    "tip": "Reporting is about improving safety for everyone, not about assigning blame."
+  },
+  {
+    "id": "se_023",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the primary danger of a 'hard landing'?",
+    "options": [
+      "It can cause unseen structural damage to the drone's airframe or components.",
+      "It is embarrassing for the pilot.",
+      "It can scratch the propellers.",
+      "It makes a loud noise."
+    ],
+    "correctIndex": 0,
+    "explanation": "A hard landing puts significant stress on the airframe, arms, and landing gear. This can create micro-fractures or damage internal components that are not immediately obvious, but could fail on a subsequent flight.",
+    "tip": "After any hard landing, perform a thorough inspection of the entire aircraft before deeming it airworthy again."
+  },
+  {
+    "id": "se_024",
+    "topic": "Safety & Emergencies",
+    "stem": "You have just had an accident resulting in damage to a third party's property. After ensuring the scene is safe, what should you do?",
+    "options": [
+      "Leave the scene immediately.",
+      "Admit full liability for the accident.",
+      "Do not admit liability, but exchange contact and insurance details with the property owner.",
+      "Offer to pay for the damages in cash."
+    ],
+    "correctIndex": 2,
+    "explanation": "Similar to a car accident, the correct procedure is to exchange details without admitting fault. Your insurance company will handle the investigation and any claims. Your role is to be professional, secure the scene, and report the incident.",
+    "tip": "Take photos of the scene and the damage if it is safe to do so."
+  },
+  {
+    "id": "se_025",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the most important reason to have a dedicated, clear take-off and landing point?",
+    "options": [
+      "It looks professional.",
+      "It provides a known safe area for the most critical phases of flight and for immediate landing in an emergency.",
+      "It's easier to find your drone.",
+      "It's a CAA requirement to have it marked with a cone."
+    ],
+    "correctIndex": 1,
+    "explanation": "Having a pre-defined 'sterile' area for take-off and landing is a key safety procedure. It ensures you have a safe space to operate from, and a guaranteed safe spot to return to if an emergency requires an immediate landing.",
+    "tip": "Brief your crew and any involved persons on the location of the emergency landing point before the flight begins."
+  },
+  {
+    "id": "se_026",
+    "topic": "Safety & Emergencies",
+    "stem": "In a risk assessment, what is the difference between a 'hazard' and a 'risk'?",
+    "options": [
+      "They are the same thing.",
+      "A hazard is something with the potential to cause harm; a risk is the likelihood of that harm occurring.",
+      "A risk is the bad thing that happens; a hazard is the report you file afterwards.",
+      "A hazard is a person; a risk is a thing."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a key distinction. Hazard: A tall tree. Risk: The high likelihood of a collision if flying close to the tree in gusty winds. Your job is to manage the risk presented by the hazard.",
+    "tip": "Hazard identification is the first step of any risk assessment."
+  },
+  {
+    "id": "se_027",
+    "topic": "Safety & Emergencies",
+    "stem": "You are flying and your drone's app gives you a high wind warning. What is the safest course of action?",
+    "options": [
+      "Fly higher to get above the wind.",
+      "Continue the flight but be extra careful.",
+      "Acknowledge the warning and land the drone as soon as is safely possible.",
+      "Switch to sport mode to fight the wind more effectively."
+    ],
+    "correctIndex": 2,
+    "explanation": "A high wind warning indicates that the conditions are approaching or exceeding the drone's safe operating limits. Continuing the flight puts you at high risk of a loss of control. The professional response is to land.",
+    "tip": "Always check the weather forecast before you fly, and don't take off if the predicted winds are close to your drone's limits."
+  },
+  {
+    "id": "se_028",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the primary risk of flying with a third-party, non-manufacturer-approved propeller?",
+    "options": [
+      "They may be less aerodynamically efficient, leading to reduced flight times and performance.",
+      "They may not be manufactured to the same safety and material standards, increasing the risk of a mid-air failure.",
+      "They might be a different colour, which is not professional.",
+      "Both A and B are significant risks."
+    ],
+    "correctIndex": 3,
+    "explanation": "Third-party props can be of unknown quality. They may not have the same strength, balance, or aerodynamic profile as genuine parts, leading to both poor performance and a higher safety risk.",
+    "tip": "Propellers are a safety-critical component. Using genuine manufacturer parts is always the safest choice."
+  },
+  {
+    "id": "se_029",
+    "topic": "Safety & Emergencies",
+    "stem": "If you lose GPS signal while flying, what is the most likely state your drone will revert to?",
+    "options": [
+      "It will land immediately.",
+      "It will automatically return to home.",
+      "It will switch to ATTI mode, holding altitude but drifting with the wind.",
+      "It will shut down."
+    ],
+    "correctIndex": 2,
+    "explanation": "Loss of GPS means the drone can no longer automatically hold its horizontal position. It will revert to ATTI (Attitude) mode, where the pilot has full manual control of its horizontal movement.",
+    "tip": "Practicing flying in ATTI mode in a safe area is a crucial skill to develop for handling a GPS loss emergency."
+  },
+  {
+    "id": "se_030",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the purpose of having an emergency contact list as part of your flight documentation?",
+    "options": [
+      "To know who to call for a weather update.",
+      "To have the numbers for local emergency services (police, fire) and ATC readily available in the event of an incident.",
+      "To have a list of clients to call for more work.",
+      "It is not necessary."
+    ],
+    "correctIndex": 1,
+    "explanation": "In the stress of an emergency, you don't want to be searching for phone numbers. Having them pre-prepared as part of your on-site documentation is a key part of professional emergency planning.",
+    "tip": "Include your insurance company's claims number on this list as well."
+  },
+  {
+    "id": "se_031",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the primary danger of moisture (e.g., from rain or fog) getting inside a drone?",
+    "options": [
+      "It can make the drone look dirty.",
+      "It can cause short circuits in the electronics, leading to a catastrophic failure of the flight controller or motors.",
+      "It will fog up the camera lens.",
+      "It can wash the Operator ID label off."
+    ],
+    "correctIndex": 1,
+    "explanation": "Drones are complex electronic devices. Water ingress can cause immediate short circuits or long-term corrosion, both of which can lead to a complete and sudden failure in the air.",
+    "tip": "Most consumer drones are not waterproof. Never fly in rain unless your specific drone model is officially IP-rated for it."
+  },
+  {
+    "id": "se_032",
+    "topic": "Safety & Emergencies",
+    "stem": "When transporting LiPo batteries by car, what is a key safety precaution?",
+    "options": [
+      "Keep them in direct sunlight to keep them warm.",
+      "Store them in a fire-resistant LiPo bag or an ammunition case, and secure them so they cannot slide around.",
+      "Place them loose on the passenger seat.",
+      "Ensure they are fully charged for the journey."
+    ],
+    "correctIndex": 1,
+    "explanation": "A battery could be damaged in a car accident or even from sliding around and hitting a sharp object. Storing them in a protective, fire-resistant container at the correct storage charge is the safest method of transport.",
+    "tip": "Never leave LiPo batteries in a hot car, as high temperatures can damage them and increase fire risk."
+  },
+  {
+    "id": "se_033",
+    "topic": "Safety & Emergencies",
+    "stem": "In risk assessment, what does 'severity' refer to?",
+    "options": [
+      "How likely the risk is to occur.",
+      "How much the drone costs.",
+      "The potential outcome or consequence of an incident, i.e., how bad it could be.",
+      "How difficult the flight is."
+    ],
+    "correctIndex": 2,
+    "explanation": "Risk is a combination of likelihood (how likely is it to happen?) and severity (if it does happen, how bad will it be?). A good risk assessment considers both factors.",
+    "tip": "A bird strike may have a low likelihood, but its severity is very high. Therefore, it is a risk that must be managed."
+  },
+  {
+    "id": "se_034",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the most likely cause of a 'jello' effect (high-frequency vibrations) in your video footage?",
+    "options": [
+      "A slow memory card.",
+      "Incorrect camera settings.",
+      "Damaged, unbalanced, or insecurely attached propellers.",
+      "Flying too fast."
+    ],
+    "correctIndex": 2,
+    "explanation": "'Jello' is caused by vibrations from the motors and props being transmitted to the camera. It is often the first sign that you have a damaged or unbalanced propeller.",
+    "tip": "If you suddenly see 'jello' in your video, land immediately and inspect your props. It's a key indicator of a potential mechanical problem."
+  },
+  {
+    "id": "se_035",
+    "topic": "Safety & Emergencies",
+    "stem": "A member of the public is being deliberately disruptive and trying to distract you during a flight. What is the safest action?",
+    "options": [
+      "Engage in an argument with them to make them leave.",
+      "Ignore them and continue your flight as planned.",
+      "Land the drone as soon as is safely possible and then deal with the person.",
+      "Fly the drone towards them to scare them away."
+    ],
+    "correctIndex": 2,
+    "explanation": "Your first priority is the safety of the flight. You cannot safely manage both a flight and a disruptive person. The safest course of action is to remove the airborne risk by landing, which then allows you to give your full attention to the situation on the ground.",
+    "tip": "If you feel threatened, do not hesitate to call the police. Intentionally distracting a pilot is a serious offence."
+  },
+  {
+    "id": "se_036",
+    "topic": "Safety & Emergencies",
+    "stem": "You are flying and your drone's app gives you a compass error warning. What is the danger?",
+    "options": [
+      "The drone may not be able to take photos.",
+      "The drone may not be able to hold its position and could fly erratically.",
+      "The battery will drain much faster.",
+      "The drone will automatically land."
+    ],
+    "correctIndex": 1,
+    "explanation": "A compass error means the flight controller no longer has reliable information about the drone's heading. This can cause it to become unstable in its hover, fly in unintended directions, or fail to execute an RTH correctly.",
+    "tip": "If you receive a compass error, land immediately. Try moving to a different take-off spot away from potential magnetic interference and recalibrating."
+  },
+  {
+    "id": "se_037",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the best way to extinguish a person whose clothes are on fire after a battery explosion?",
+    "options": [
+      "Tell them to run to get help.",
+      "Use a fire extinguisher on them.",
+      "Follow the 'stop, drop, and roll' principle and smother the flames with a fire blanket or heavy coat.",
+      "Pour water on them."
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a basic but critical first aid principle. Using a fire extinguisher directly on a person can cause other injuries. Smothering the flames is the correct and safest method.",
+    "tip": "Your personal safety and the safety of others on site is always a higher priority than the drone itself."
+  },
+  {
+    "id": "se_038",
+    "topic": "Safety & Emergencies",
+    "stem": "What does a risk matrix (e.g., a 5x5 grid) help you to do?",
+    "options": [
+      "Plan your flight path.",
+      "Calculate your drone's flight time.",
+      "Visually assess the level of a risk by plotting its likelihood against its severity.",
+      "Log your maintenance checks."
+    ],
+    "correctIndex": 2,
+    "explanation": "A risk matrix is a standard tool for risk assessment. It allows you to assign a score to a risk (e.g., from 1-5) for both its likelihood and severity. Multiplying these gives a total risk score, helping you to prioritise which risks need the most attention.",
+    "tip": "Using a simple traffic light system (red, amber, green) on your risk matrix is a great way to quickly see which risks are unacceptable."
+  },
+  {
+    "id": "se_039",
+    "topic": "Safety & Emergencies",
+    "stem": "You are about to fly on a cold day. What effect will the temperature have on your LiPo batteries?",
+    "options": [
+      "The cold will make the batteries last longer.",
+      "The cold has no effect on battery performance.",
+      "The cold will significantly reduce the battery's performance and available flight time.",
+      "The cold will increase the risk of a battery fire."
+    ],
+    "correctIndex": 2,
+    "explanation": "The chemical reaction inside a LiPo battery is less efficient at low temperatures. This results in a higher internal resistance and a lower effective capacity, meaning your flight time will be much shorter than you expect.",
+    "tip": "Keep your batteries warm (e.g., in an inside pocket) before flight. After take-off, hover for a minute to allow the battery to warm up under load before flying away."
+  },
+  {
+    "id": "se_040",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the primary safety concern when flying near tall structures like cranes or communication masts?",
+    "options": [
+      "They can cause radio and magnetic interference.",
+      "They often have thin guy wires or cables that are very difficult to see.",
+      "They may have bright lights that can distract the pilot.",
+      "All of the above."
+    ],
+    "correctIndex": 3,
+    "explanation": "Tall structures present multiple hazards. They are sources of RF interference, but the biggest danger is often the guy wires used to support them, which are almost invisible to a pilot from a distance.",
+    "tip": "During your site survey, walk around the base of any mast or tower specifically to identify the location and extent of all supporting cables."
+  },
+  {
+    "id": "se_041",
+    "topic": "Safety & Emergencies",
+    "stem": "If your drone crashes in a location that is difficult or dangerous to access, what should you do?",
+    "options": [
+      "Attempt a risky recovery immediately to save the equipment.",
+      "Prioritise your own safety. Do not attempt a recovery if it puts you at risk. Contact emergency services if necessary.",
+      "Abandon the drone and report it as stolen.",
+      "Ask a member of the public to try and retrieve it for you."
+    ],
+    "correctIndex": 1,
+    "explanation": "No drone is worth risking your life or health for. If it crashes up a tree, on a cliff edge, or in a dangerous structure, the correct action is to assess the situation safely. You may need to seek professional help (e.g., a tree surgeon) for the recovery.",
+    "tip": "Your risk assessment should include a plan for safe recovery of the aircraft."
+  },
+  {
+    "id": "se_042",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the best way to handle a territorial bird (like a seagull or bird of prey) that is showing aggression towards your drone?",
+    "options": [
+      "Try to fly higher than the bird.",
+      "Fly towards the bird to scare it away.",
+      "Do not ascend or make sudden moves. Fly away from the bird's territory and land as soon as safely possible.",
+      "Ignore it, as it is unlikely to actually strike the drone."
+    ],
+    "correctIndex": 2,
+    "explanation": "Birds often see drones as a threat to their territory, especially during nesting season. Trying to 'out-fly' or scare them can escalate the situation. The safest action is a calm, steady retreat out of their territory, followed by landing.",
+    "tip": "If you know there are aggressive birds in your operating area, this is a hazard that must be included in your risk assessment."
+  },
+  {
+    "id": "se_043",
+    "topic": "Safety & Emergencies",
+    "stem": "What is a 'kill switch' in the context of a risk assessment?",
+    "options": [
+      "The drone's on/off button.",
+      "A pre-planned action or condition that, if it occurs, means the flight must be immediately cancelled or aborted.",
+      "The throttle cut function on the controller.",
+      "A switch that locks the gimbal."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a pre-defined 'red line' for your operation. For example, a 'kill switch' could be: 'If the wind speed exceeds 25 mph, the flight is cancelled' or 'If any uninvolved person comes within 10m of the landing zone, we land immediately'.",
+    "tip": "Defining your 'kill switch' conditions before the flight makes it much easier to make a safe decision under pressure."
+  },
+  {
+    "id": "se_044",
+    "topic": "Safety & Emergencies",
+    "stem": "You are flying and your controller's battery dies. What will your drone most likely do?",
+    "options": [
+      "It will hover in place until its own battery dies.",
+      "It will fall out of the sky.",
+      "It will detect the loss of the control signal and initiate its failsafe Return-to-Home (RTH) procedure.",
+      "It will continue flying on its last commanded course."
+    ],
+    "correctIndex": 2,
+    "explanation": "A dead controller is the same as a lost signal. The drone will recognise that it is no longer receiving commands and will trigger its pre-set failsafe, which is usually RTH.",
+    "tip": "Always ensure your controller, phone, and any other ground station equipment is fully charged before you start an operation. Add it to your checklist!"
+  },
+  {
+    "id": "se_045",
+    "topic": "Safety & Emergencies",
+    "stem": "Why is it important to physically restrain a drone immediately after an accident?",
+    "options": [
+      "To prevent anyone from stealing it.",
+      "Because a damaged battery could still cause the motors to spin up unexpectedly, posing a serious injury risk.",
+      "To take a photo of it for insurance.",
+      "To check if the propellers are still attached."
+    ],
+    "correctIndex": 1,
+    "explanation": "Even after a crash, a damaged flight controller or a short circuit could cause the motors to start up at full power without warning. The first step is always to make the scene safe, which includes disconnecting the battery if possible.",
+    "tip": "Approach a crashed drone with caution, as if it were still 'live'."
+  },
+  {
+    "id": "se_046",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the primary reason for doing a 'motor and prop spin' test on the ground before take-off?",
+    "options": [
+      "To create some noise to warn people you are about to fly.",
+      "To check that all motors are spinning freely, in the correct direction, and that the props are secure.",
+      "To warm up the drone's batteries.",
+      "To clean any dust off the propellers."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a final systems check. A brief, low-power spin-up on the ground allows you to confirm that everything is functioning correctly before committing to flight. You can often hear or see if a prop is loose or if a motor sounds rough.",
+    "tip": "This should be one of the very last items on your pre-flight checklist before you increase power for take-off."
+  },
+  {
+    "id": "se_047",
+    "topic": "Safety & Emergencies",
+    "stem": "If you are involved in a safety-related incident, why is it important to preserve the flight data from the drone and controller?",
+    "options": [
+      "So you can post the video online.",
+      "The data provides a detailed, factual record of the drone's status, control inputs, and flight path, which is crucial for any investigation.",
+      "To prove that it wasn't your fault.",
+      "So you can try to repeat the incident in a simulator."
+    ],
+    "correctIndex": 1,
+    "explanation": "Flight logs are the 'black box' of a drone. They provide invaluable, unbiased data that can help you, the manufacturer, and investigators (like the AAIB) understand exactly what went wrong, which is essential for learning lessons and preventing future accidents.",
+    "tip": "Secure the data as soon as possible after an incident and do not tamper with it."
+  },
+  {
+    "id": "se_048",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the best way to handle a LiPo battery that has been submerged in water?",
+    "options": [
+      "Dry it out with a hairdryer and try to use it again.",
+      "Assume it is safe to use once it is fully dry.",
+      "Treat it as damaged and potentially very dangerous. Discharge it and dispose of it safely.",
+      "Charge it immediately to see if it still works."
+    ],
+    "correctIndex": 2,
+    "explanation": "Water ingress, especially saltwater, can cause internal corrosion and short circuits that may not be immediately apparent. A submerged battery is a damaged battery and is a significant fire risk. It should never be used again.",
+    "tip": "If you crash in water, your priority is safe recovery and disposal of the battery, not trying to save it."
+  },
+  {
+    "id": "se_049",
+    "topic": "Safety & Emergencies",
+    "stem": "What is the 'normalisation of deviance'?",
+    "options": [
+      "A statistical analysis of flight data.",
+      "A dangerous cultural creep where a deviation from correct procedure becomes the 'new normal' over time.",
+      "The process of calibrating your drone's sensors.",
+      "A psychological condition affecting pilots."
+    ],
+    "correctIndex": 1,
+    "explanation": "This happens when a pilot gets away with a shortcut once (e.g., not doing a full checklist). The next time, it's easier to skip it again. Over time, this unsafe shortcut becomes the normal, accepted procedure, and the original, safe procedure is forgotten.",
+    "tip": "This is why adhering strictly to checklists and SOPs is so important. They are your defence against the normalisation of deviance."
+  },
+  {
+    "id": "se_050",
+    "topic": "Safety & Emergencies",
+    "stem": "You are about to land when a sudden, strong gust of wind pushes your drone towards a building. What is the correct control input?",
+    "options": [
+      "Cut the throttle immediately.",
+      "Increase throttle and apply control to fly away from the obstacle.",
+      "Let go of the sticks and let the drone figure it out.",
+      "Activate the Return-to-Home function."
+    ],
+    "correctIndex": 1,
+    "explanation": "In a gust, the drone can lose altitude and be pushed sideways. The correct response is to apply power (throttle) to arrest the descent and simultaneously apply roll/pitch to actively fly away from the danger. This is a positive and assertive control action.",
+    "tip": "This is a classic 'go-around' scenario. Abort the landing and regain a safe altitude before re-attempting."
+  }
+]
+
+

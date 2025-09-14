@@ -1,0 +1,704 @@
+[
+  {
+    "id": "op_001",
+    "topic": "Flight Operations",
+    "stem": "What is the primary reason for using a pre-flight checklist?",
+    "options": [
+      "To log flight hours for insurance purposes.",
+      "To ensure a standardised, methodical, and repeatable process to verify the aircraft is safe to fly.",
+      "To impress clients with your professionalism.",
+      "It is a legal requirement to submit it to the CAA after every flight."
+    ],
+    "correctIndex": 1,
+    "explanation": "Human memory is fallible, especially under pressure. A checklist ensures that no critical safety item—from checking propeller security to setting the RTH altitude—is forgotten.",
+    "tip": "Use a physical or digital checklist and actively tick off each item. Don't just perform the checks from memory."
+  },
+  {
+    "id": "op_002",
+    "topic": "Flight Operations",
+    "stem": "What is a 'site survey' (often called a 'recce')?",
+    "options": [
+      "A quick glance at the area from your car.",
+      "A detailed on-site assessment of potential hazards, obstacles, take-off/landing spots, and public access.",
+      "Looking at the location on a satellite map only.",
+      "Asking the client if the area is safe."
+    ],
+    "correctIndex": 1,
+    "explanation": "A site survey is a critical part of operational planning. It involves physically visiting the site to identify hazards not visible on maps (like wires), assess ground conditions, and plan the flight in detail.",
+    "tip": "A good site survey is the foundation of a good risk assessment. It's about finding problems on the ground, so you don't find them in the air."
+  },
+  {
+    "id": "op_003",
+    "topic": "Flight Operations",
+    "stem": "What does setting the Return-to-Home (RTH) altitude achieve?",
+    "options": [
+      "It sets the maximum altitude the drone can fly to during the mission.",
+      "It defines the altitude the drone will climb to before flying back to the take-off point in a straight line.",
+      "It tells the drone at what altitude to automatically land.",
+      "It determines how fast the drone will fly during the RTH sequence."
+    ],
+    "correctIndex": 1,
+    "explanation": "The RTH altitude is a crucial safety feature. It should be set to a height that is safely above all obstacles (trees, buildings, etc.) in the operating area to ensure a clear path home.",
+    "tip": "Before every flight, identify the tallest obstacle in your operating area and set your RTH altitude at least 15-20 metres above it."
+  },
+  {
+    "id": "op_004",
+    "topic": "Flight Operations",
+    "stem": "Which of these is a critical check to perform on your propellers before every flight?",
+    "options": [
+      "Ensure they are polished for maximum efficiency.",
+      "Check for any nicks, cracks, or deformities and ensure they are securely attached.",
+      "Make sure they are the same colour.",
+      "Tighten them as much as physically possible."
+    ],
+    "correctIndex": 1,
+    "explanation": "The propellers generate all the lift. Any damage, even minor, can cause vibrations, inefficiency, and could lead to a catastrophic failure in the air. A damaged prop should be replaced immediately.",
+    "tip": "Run your finger gently along the leading and trailing edges of each prop to feel for damage you might not be able to see easily."
+  },
+  {
+    "id": "op_005",
+    "topic": "Flight Operations",
+    "stem": "What is a 'logbook' used for in drone operations?",
+    "options": [
+      "To record your personal feelings about each flight.",
+      "To keep a detailed record of flights, pilot hours, battery cycles, and aircraft maintenance.",
+      "To store photos and videos from your flights.",
+      "To list the contact details of your clients."
+    ],
+    "correctIndex": 1,
+    "explanation": "A logbook is a professional way to track your experience and your aircraft's history. It is essential for proving currency, managing maintenance schedules, and for insurance or legal purposes.",
+    "tip": "Log every flight, no matter how short. Digital logbook apps make this process very simple."
+  },
+  {
+    "id": "op_006",
+    "topic": "Flight Operations",
+    "stem": "What is the 'Centre of Gravity' (CG) of a drone?",
+    "options": [
+      "The exact geometric centre of the aircraft.",
+      "The point where the battery is located.",
+      "The theoretical point where the entire weight of the aircraft is considered to be concentrated.",
+      "The point furthest from the propellers."
+    ],
+    "correctIndex": 2,
+    "explanation": "The Centre of Gravity is the balance point of the aircraft. Its position is critical for stability and control. An incorrect CG can make the drone unstable and difficult to fly.",
+    "tip": "When adding payloads, ensure they are mounted in a way that keeps the CG within the manufacturer's specified limits."
+  },
+  {
+    "id": "op_007",
+    "topic": "Flight Operations",
+    "stem": "Why is it important to perform a compass calibration?",
+    "options": [
+      "To increase the drone's maximum speed.",
+      "To prevent interference from magnetic sources, ensuring accurate positional hold and navigation.",
+      "To sync the controller with the aircraft.",
+      "To improve the quality of the video feed."
+    ],
+    "correctIndex": 1,
+    "explanation": "The compass helps the flight controller know which way the drone is oriented. Strong magnetic fields (from metal structures, cars, rebar in concrete) can interfere with it, causing erratic flight or 'toilet-bowling'.",
+    "tip": "Calibrate the compass whenever you fly from a new location with significant metal structures, or if the drone's app prompts you to do so."
+  },
+  {
+    "id": "op_008",
+    "topic": "Flight Operations",
+    "stem": "The '1:1 Rule' is a safety guideline used for contingency planning. What does it suggest?",
+    "options": [
+      "For every minute of flight, you need one minute of charging.",
+      "In an unpowered descent, a drone will travel forward a horizontal distance roughly equal to its height.",
+      "You should have one spare battery for every flight.",
+      "You must stay 1 metre away for every 1 person present."
+    ],
+    "correctIndex": 1,
+    "explanation": "The 1:1 rule is a rule of thumb for planning a sterile safety cordon. If you are flying at 60m high, you should plan a contingency buffer zone of at least 60m horizontally around you in case of a total power failure.",
+    "tip": "This rule helps you define a safe operating area and plan for the worst-case scenario."
+  },
+  {
+    "id": "op_009",
+    "topic": "Flight Operations",
+    "stem": "What does 'maintaining currency' mean for a pilot?",
+    "options": [
+      "Having enough money to operate the drone.",
+      "Keeping up to date with the latest regulations.",
+      "Flying regularly to ensure your practical skills remain sharp.",
+      "Keeping your drone's firmware updated."
+    ],
+    "correctIndex": 2,
+    "explanation": "Flying is a perishable skill. Currency means practicing regularly to maintain your competence and confidence at the controls, especially in handling emergencies.",
+    "tip": "Many professional bodies recommend a minimum of 2 hours of flight time in the preceding 3 months to be considered 'current'."
+  },
+  {
+    "id": "op_010",
+    "topic": "Flight Operations",
+    "stem": "What is the primary function of the Inertial Measurement Unit (IMU)?",
+    "options": [
+      "To receive GPS satellite signals.",
+      "To measure the drone's speed and direction relative to the ground.",
+      "To detect the drone's attitude (roll, pitch, yaw) and acceleration using accelerometers and gyroscopes.",
+      "To control the camera's gimbal."
+    ],
+    "correctIndex": 2,
+    "explanation": "The IMU is the core of the drone's stability system. It constantly tells the flight controller how the drone is oriented in space, allowing it to make tiny adjustments to the motors to keep it level.",
+    "tip": "An IMU calibration, which requires the drone to be on a perfectly level surface, is often a key step in resolving flight stability issues."
+  },
+  {
+    "id": "op_011",
+    "topic": "Flight Operations",
+    "stem": "What is the main aerodynamic principle that generates lift from a propeller?",
+    "options": [
+      "Newton's Third Law (action and reaction).",
+      "Bernoulli's Principle.",
+      "Both Bernoulli's Principle and Newton's Third Law.",
+      "The Magnus Effect."
+    ],
+    "correctIndex": 2,
+    "explanation": "A propeller is a rotating aerofoil. The curved top surface creates lower pressure (Bernoulli's Principle), 'pulling' it up. Simultaneously, it pushes air downwards (action), causing an upward force on the prop (Newton's Third Law - reaction).",
+    "tip": "Understanding that a prop is a wing is key to understanding drone flight."
+  },
+  {
+    "id": "op_012",
+    "topic": "Flight Operations",
+    "stem": "What is the best way to clean your drone's camera lens?",
+    "options": [
+      "With your t-shirt.",
+      "With a soft lens cloth or lens wipe.",
+      "With a wet paper towel.",
+      "With a blast of compressed air."
+    ],
+    "correctIndex": 1,
+    "explanation": "A camera lens has delicate coatings that can be easily scratched. A rough material like a t-shirt can trap dust and grit, causing permanent damage. A soft microfibre cloth is the correct tool.",
+    "tip": "Always use an air blower first to remove any loose grit before wiping the lens."
+  },
+  {
+    "id": "op_013",
+    "topic": "Flight Operations",
+    "stem": "What is a 'dynamic risk assessment'?",
+    "options": [
+      "A risk assessment that is done by a large team.",
+      "The continuous process of identifying and managing risks that change or appear during the flight itself.",
+      "A risk assessment that is written down on paper.",
+      "The pre-flight risk assessment done at home."
+    ],
+    "correctIndex": 1,
+    "explanation": "Your pre-flight assessment is static. A dynamic assessment is what you do in the air. For example, a dog runs into your landing area. This is a new hazard that you must see, assess, and manage in real-time.",
+    "tip": "Safe flying is a constant cycle of assess, decide, and act. Don't just switch off after you've taken off."
+  },
+  {
+    "id": "op_014",
+    "topic": "Flight Operations",
+    "stem": "Before a flight over a large, complex industrial site, what is a crucial planning step?",
+    "options": [
+      "Assume the client has taken care of all permissions.",
+      "Conduct a thorough pre-flight survey to identify potential sources of radio or magnetic interference.",
+      "Fly at a higher altitude to ensure good signal.",
+      "Use older, analogue radio equipment."
+    ],
+    "correctIndex": 1,
+    "explanation": "Industrial sites often have large metal structures, power lines, and radio towers that can cause significant magnetic (compass) and radio frequency (control link) interference.",
+    "tip": "Look for sources of potential interference during your site survey and plan your flight paths to stay as far away from them as is practical."
+  },
+  {
+    "id": "op_015",
+    "topic": "Flight Operations",
+    "stem": "The four main forces acting on a drone in flight are:",
+    "options": [
+      "Lift, Weight, Thrust, and Drag.",
+      "Power, Speed, Altitude, and Yaw.",
+      "Gravity, Momentum, Inertia, and Friction.",
+      "Pitch, Roll, Yaw, and Heave."
+    ],
+    "correctIndex": 0,
+    "explanation": "These are the four fundamental forces of flight. Lift counteracts Weight, and Thrust counteracts Drag. In a stable hover, all four forces are in balance.",
+    "tip": "Understanding these forces helps you understand why the drone behaves the way it does."
+  },
+  {
+    "id": "op_016",
+    "topic": "Flight Operations",
+    "stem": "What is the primary purpose of a post-flight inspection?",
+    "options": [
+      "To charge the batteries for the next flight.",
+      "To ensure the drone is clean for the client.",
+      "To identify and address any damage or issues that may have occurred during the flight, before the drone is put away.",
+      "To log your flight time."
+    ],
+    "correctIndex": 2,
+    "explanation": "Damage that occurs during a flight or landing might not be obvious. A post-flight check ensures the aircraft is still in a safe and airworthy condition before it is stored, ready for the next operation.",
+    "tip": "Your post-flight check is simply the pre-flight check for your next flight."
+  },
+  {
+    "id": "op_017",
+    "topic": "Flight Operations",
+    "stem": "What is the most important consideration when choosing a take-off and landing area?",
+    "options": [
+      "It must be perfectly flat and paved.",
+      "It should be a clear, open area, free from obstacles, with a firm, level surface, and controllable access.",
+      "It must be close to where your car is parked.",
+      "It should have a good phone signal for GPS."
+    ],
+    "correctIndex": 1,
+    "explanation": "The ideal take-off/landing area is safe and sterile. It should be free of overhead wires, away from people, and on firm ground to prevent debris from being kicked up into the motors.",
+    "tip": "A portable landing pad is a great piece of kit for protecting your drone from dust, mud, and long grass."
+  },
+  {
+    "id": "op_018",
+    "topic": "Flight Operations",
+    "stem": "What is 'ATTI' mode?",
+    "options": [
+      "A fully autonomous flight mode.",
+      "A flight mode where the drone maintains its altitude but does not use GPS to hold its position.",
+      "A high-speed sport flying mode.",
+      "An automatic landing mode."
+    ],
+    "correctIndex": 1,
+    "explanation": "In ATTI (Attitude) mode, the drone's barometric sensor will help it hold a steady altitude, but it will drift with the wind as it is not using GPS to lock its position. The pilot is responsible for all horizontal control.",
+    "tip": "Knowing how to fly competently in ATTI mode is a crucial skill, as it's what the drone may revert to if it loses GPS signal."
+  },
+  {
+    "id": "op_019",
+    "topic": "Flight Operations",
+    "stem": "If you are flying with a visual observer (VO), what must be established before the flight?",
+    "options": [
+      "The VO must have their own drone licence.",
+      "Clear and unambiguous methods of communication, including standard phrases and hand signals.",
+      "The VO must be positioned at least 50m away from the pilot.",
+      "The VO must log the flight time for the pilot."
+    ],
+    "correctIndex": 1,
+    "explanation": "Effective crew resource management depends on clear communication. The pilot and VO must agree on how they will communicate safety-critical information before the flight begins.",
+    "tip": "A good pre-flight brief with your VO should cover communication, emergency procedures, and each person's specific roles and responsibilities."
+  },
+  {
+    "id": "op_020",
+    "topic": "Flight Operations",
+    "stem": "What is the best way to ensure your drone's firmware is up to date?",
+    "options": [
+      "Never update the firmware as it can cause problems.",
+      "Only update it if you experience a problem.",
+      "Regularly check the manufacturer's app and website for updates and install them in a controlled environment.",
+      "Wait for the drone to update itself automatically in the air."
+    ],
+    "correctIndex": 2,
+    "explanation": "Firmware updates often contain important safety improvements, bug fixes, and updates to geo-awareness databases. They should be installed as soon as is practical.",
+    "tip": "Never perform a firmware update 'in the field' just before a job. Do it at home or in the office where you have a stable internet connection and time to troubleshoot if needed."
+  },
+  {
+    "id": "op_021",
+    "topic": "Flight Operations",
+    "stem": "What is a key benefit of using a drone with propeller guards?",
+    "options": [
+      "They increase the drone's flight time.",
+      "They make the drone fly faster.",
+      "They provide a layer of protection against light impacts and can reduce the severity of injury from propeller strikes.",
+      "They make the drone quieter."
+    ],
+    "correctIndex": 2,
+    "explanation": "Propeller guards can offer a significant safety benefit, especially for indoor flights or operations close to obstacles, by preventing the propellers from making direct contact.",
+    "tip": "Be aware that prop guards add weight and can slightly reduce flight time and stability in wind."
+  },
+  {
+    "id": "op_022",
+    "topic": "Flight Operations",
+    "stem": "When planning a flight, what is the 'point of no return'?",
+    "options": [
+      "The halfway point of the flight.",
+      "The point at which the drone has only enough battery remaining to fly directly back and land safely.",
+      "When the drone flies beyond 500m.",
+      "The point where you lose visual line of sight."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a critical fuel/battery management concept. You must always monitor your battery and turn back towards home with enough power in reserve to handle unexpected issues like strong headwinds.",
+    "tip": "A safe rule of thumb is to plan to land with at least 20-30% battery remaining."
+  },
+  {
+    "id": "op_023",
+    "topic": "Flight Operations",
+    "stem": "What is the primary function of the gimbal on a camera drone?",
+    "options": [
+      "To provide lift.",
+      "To stabilise the camera and keep it level, independent of the drone's movements.",
+      "To extend the range of the radio controller.",
+      "To store the drone's flight data."
+    ],
+    "correctIndex": 1,
+    "explanation": "The gimbal uses its own set of motors and gyroscopes to counteract the drone's roll, pitch, and yaw movements, resulting in smooth, stable video footage.",
+    "tip": "Always check that the gimbal is moving freely and has been calibrated before flight, and always secure it with a gimbal lock during transport."
+  },
+  {
+    "id": "op_024",
+    "topic": "Flight Operations",
+    "stem": "You are asked to fly at night. What is a key operational consideration?",
+    "options": [
+      "The drone's battery will last longer in the cool air.",
+      "It is much harder to maintain VLOS and judge the drone's orientation and distance.",
+      "Night flying is illegal in the Open Category.",
+      "The GPS signal is stronger at night."
+    ],
+    "correctIndex": 1,
+    "explanation": "Night flying is legal, but it presents significant challenges. Without a well-lit horizon and visual cues, judging your drone's movement and avoiding obstacles becomes extremely difficult. The drone must be equipped with flashing green navigation lights.",
+    "tip": "Thorough knowledge of the operating area from a daytime site survey is essential before attempting any night flight."
+  },
+  {
+    "id": "op_025",
+    "topic": "Flight Operations",
+    "stem": "Which of these would be the most suitable take-off surface for a drone?",
+    "options": [
+      "Long, wet grass.",
+      "Loose sand or gravel.",
+      "A flat, paved area or a portable landing mat.",
+      "The roof of a car."
+    ],
+    "correctIndex": 2,
+    "explanation": "Long grass can foul propellers, while sand and gravel can be sucked into the motors, causing damage. A car roof is unstable and can cause compass errors. A clean, flat surface is always the safest option.",
+    "tip": "A landing mat is a low-cost, high-value accessory for any serious pilot."
+  },
+  {
+    "id": "op_026",
+    "topic": "Flight Operations",
+    "stem": "What is the 'yaw' control on a standard drone controller?",
+    "options": [
+      "It makes the drone fly forwards and backwards.",
+      "It makes the drone climb and descend.",
+      "It makes the drone rotate or 'pirouette' on the spot.",
+      "It makes the drone slide left and right."
+    ],
+    "correctIndex": 2,
+    "explanation": "Yaw is the rotation around the vertical axis. On a standard 'Mode 2' controller, this is achieved by moving the left stick left and right.",
+    "tip": "Understanding the four basic controls (pitch, roll, yaw, and throttle) is the foundation of manual flight."
+  },
+  {
+    "id": "op_027",
+    "topic": "Flight Operations",
+    "stem": "What is the best procedure for storing drone equipment for transport?",
+    "options": [
+      "Leave the batteries in the drone and the props on.",
+      "Place everything loosely in a bag.",
+      "Use a dedicated hard case with foam cutouts to protect the drone, controller, and batteries from impact.",
+      "It does not matter how it is stored."
+    ],
+    "correctIndex": 2,
+    "explanation": "Proper storage is a part of maintenance. A good case protects your equipment from physical damage during transport, which is a common cause of equipment failure.",
+    "tip": "Always remove propellers and store LiPo batteries safely (in a LiPo bag) when transporting your drone."
+  },
+  {
+    "id": "op_028",
+    "topic": "Flight Operations",
+    "stem": "What is a 'go-around' procedure?",
+    "options": [
+      "Flying a full circle around the subject.",
+      "A second attempt at a photo.",
+      "Aborting a landing approach, climbing to a safe altitude, and preparing for another attempt.",
+      "The post-flight debrief."
+    ],
+    "correctIndex": 2,
+    "explanation": "A go-around is a standard aviation manoeuvre. If the landing approach becomes unsafe for any reason (e.g., a gust of wind, a person walking into the area), the safest action is to apply power and climb away to re-assess.",
+    "tip": "Never feel pressured to continue an unstable or unsafe landing. There is no shame in a go-around."
+  },
+  {
+    "id": "op_029",
+    "topic": "Flight Operations",
+    "stem": "You are about to fly in a new country. What is the most important operational step?",
+    "options": [
+      "Assume the rules are the same as in the UK.",
+      "Thoroughly research and comply with the national aviation regulations of that specific country.",
+      "Only fly in remote areas to avoid being seen.",
+      "Buy a local SIM card for your controller."
+    ],
+    "correctIndex": 1,
+    "explanation": "Drone laws vary significantly from country to country. Your UK qualifications may not be valid, and there may be different registration, insurance, and airspace rules. It is your responsibility as PIC to know and follow the local laws.",
+    "tip": "Check the website of the country's national aviation authority before you travel."
+  },
+  {
+    "id": "op_030",
+    "topic": "Flight Operations",
+    "stem": "What is the primary danger of operating a drone with an out-of-balance propeller?",
+    "options": [
+      "It will be slightly noisier.",
+      "It creates high-frequency vibrations that can cause 'jello' in video and damage bearings and electronics over time.",
+      "It can cause the GPS to lose lock.",
+      "It uses slightly more battery power."
+    ],
+    "correctIndex": 1,
+    "explanation": "An unbalanced prop is like an unbalanced wheel on a car. The vibrations it creates can stress the airframe, interfere with the IMU's ability to stabilise the aircraft, and lead to premature component failure.",
+    "tip": "If you notice a sudden increase in vibration or 'jello' in your video, land and check your props immediately."
+  },
+  {
+    "id": "op_031",
+    "topic": "Flight Operations",
+    "stem": "In a risk assessment, a 'mitigation' is:",
+    "options": [
+      "The hazard itself.",
+      "The likelihood of the hazard occurring.",
+      "An action taken to reduce the likelihood or severity of a risk.",
+      "The final report submitted to the client."
+    ],
+    "correctIndex": 2,
+    "explanation": "After identifying a hazard (e.g., flying near a tree), and assessing the risk, the pilot implements a mitigation (e.g., 'plan flight path to stay 20m away from the tree') to make the operation safer.",
+    "tip": "Good mitigations are specific, measurable, and practical."
+  },
+  {
+    "id": "op_032",
+    "topic": "Flight Operations",
+    "stem": "What is the 'payload' of a drone?",
+    "options": [
+      "The battery.",
+      "The remote controller.",
+      "Anything the drone is carrying that is not essential for its basic flight (e.g., a camera, a sensor, a package).",
+      "The pilot's flight bag."
+    ],
+    "correctIndex": 2,
+    "explanation": "The payload is the 'mission equipment'. The drone's own components (motors, frame, flight controller) are not considered the payload.",
+    "tip": "The weight of your payload must be included when calculating your total take-off mass."
+  },
+  {
+    "id": "op_033",
+    "topic": "Flight Operations",
+    "stem": "What is a 'controlled airspace'?",
+    "options": [
+      "Any airspace where you are in control of your drone.",
+      "Airspace of defined dimensions within which an Air Traffic Control (ATC) service is provided.",
+      "An area where drone flying is controlled by the local council.",
+      "An indoor flying area."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is airspace, typically around larger airports, where all aircraft are under the positive control of ATC to ensure separation and safety. Flying a drone in controlled airspace requires special permission.",
+    "tip": "Controlled airspace is clearly marked on aviation charts. It is your responsibility to know if your operating area is inside or near it."
+  },
+  {
+    "id": "op_034",
+    "topic": "Flight Operations",
+    "stem": "Why should you brief a client or uninvolved persons before a flight?",
+    "options": [
+      "To make them 'involved persons' so you can fly closer.",
+      "To explain the safety procedures, the flight plan, and what to do in an emergency.",
+      "To get them to sign a legal waiver.",
+      "To ask them to help you watch the drone."
+    ],
+    "correctIndex": 1,
+    "explanation": "A safety briefing manages expectations and ensures everyone on site knows what is happening. It should cover the flight path, the identified risks, and the emergency procedures, so they know how to react safely.",
+    "tip": "A good briefing demonstrates professionalism and builds client confidence."
+  },
+  {
+    "id": "op_035",
+    "topic": "Flight Operations",
+    "stem": "What does a 'throttle cut' switch do on a controller?",
+    "options": [
+      "It reduces the throttle to 50%.",
+      "It immediately shuts off power to all motors.",
+      "It engages the drone's sport mode.",
+      "It activates the Return-to-Home function."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is an emergency function that instantly stops the propellers. It is used to prevent further damage or injury after a crash, or in a catastrophic failure where the drone is about to hit someone.",
+    "tip": "Know where your throttle cut command is, but be extremely careful never to activate it accidentally while in the air."
+  },
+  {
+    "id": "op_036",
+    "topic": "Flight Operations",
+    "stem": "What is the best way to determine the location of underground services (like gas pipes) before flying?",
+    "options": [
+      "You do not need to consider underground services.",
+      "Use a metal detector on the site.",
+      "Consult utility maps or use a Cable Avoidance Tool (CAT) scanner as part of your site survey.",
+      "Ask the landowner if they know of any."
+    ],
+    "correctIndex": 2,
+    "explanation": "While not an aviation hazard, striking an underground service with a stake for a cordon, for example, is a serious ground safety risk. A professional site survey includes checking for these ground-based hazards.",
+    "tip": "This is particularly important in industrial or construction environments."
+  },
+  {
+    "id": "op_037",
+    "topic": "Flight Operations",
+    "stem": "What is 'Angle of Attack'?",
+    "options": [
+      "The angle at which you approach your subject for filming.",
+      "The angle between the propeller's chord line and the relative wind.",
+      "The angle of the camera gimbal.",
+      "The angle of the drone's arms relative to its body."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a fundamental concept in aerodynamics. The angle of attack is the angle at which the aerofoil (the propeller blade) meets the oncoming air. It is critical for generating lift.",
+    "tip": "Exceeding the critical angle of attack causes the airflow to separate from the aerofoil, resulting in a 'stall' and a loss of lift."
+  },
+  {
+    "id": "op_038",
+    "topic": "Flight Operations",
+    "stem": "You are planning a flight near the coast. What specific operational factor must you consider?",
+    "options": [
+      "The presence of seagulls and other coastal birds, which can be territorial.",
+      "The risk of saltwater corrosion on your equipment.",
+      "The potential for rapidly changing local weather, such as sea breezes.",
+      "All of the above."
+    ],
+    "correctIndex": 3,
+    "explanation": "Coastal environments present multiple unique challenges: aggressive birds, corrosive salt spray, and highly localised and changeable weather patterns. All of these must be included in your risk assessment.",
+    "tip": "Wipe down your drone with a damp, fresh-water cloth after flying in coastal areas to remove salt deposits."
+  },
+  {
+    "id": "op_039",
+    "topic": "Flight Operations",
+    "stem": "What does a 'redundancy' in a drone system mean?",
+    "options": [
+      "The drone has features that are not necessary.",
+      "The drone has duplicate or backup systems (e.g., dual IMUs, dual batteries) so that if one fails, the other can take over.",
+      "The pilot is no longer needed for the flight.",
+      "The drone has been made obsolete by a newer model."
+    ],
+    "correctIndex": 1,
+    "explanation": "Redundancy is a key safety feature in more advanced aircraft. Having a backup system for critical components like the IMU, compass, or power supply dramatically increases the chances of surviving a single component failure.",
+    "tip": "Drones with high levels of redundancy are often preferred for higher-risk operations."
+  },
+  {
+    "id": "op_040",
+    "topic": "Flight Operations",
+    "stem": "What is the primary risk of flying with a third-party, non-manufacturer-approved battery?",
+    "options": [
+      "It might be a different colour.",
+      "There is no risk; they are always cheaper and better.",
+      "It may not have the same quality control, performance, or safety features as an original battery, increasing the risk of failure.",
+      "It will void your pilot qualification."
+    ],
+    "correctIndex": 2,
+    "explanation": "Manufacturer (OEM) batteries are designed and tested specifically for that drone. Third-party batteries can be of variable quality and may not communicate properly with the drone's power management system.",
+    "tip": "While some third-party batteries are reliable, using genuine OEM batteries is always the safest and most recommended approach."
+  },
+  {
+    "id": "op_041",
+    "topic": "Flight Operations",
+    "stem": "Why is it important to check the security of the drone's memory card before flight?",
+    "options": [
+      "A loose card could fall out and be lost.",
+      "A loose card could cause an electrical short.",
+      "If the card is loose or becomes dislodged, you could lose all of your recorded footage from the flight.",
+      "It is not an important check."
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a simple but crucial operational check. Ensuring the card is properly inserted and has enough free space prevents the loss of valuable data, which is often the entire purpose of the flight.",
+    "tip": "Make 'Format Card' and 'Check Card Seated' part of your standard pre-flight checklist."
+  },
+  {
+    "id": "op_042",
+    "topic": "Flight Operations",
+    "stem": "What is a 'cordon' in the context of a drone operation?",
+    "options": [
+      "The cable used to charge the drone.",
+      "A physical barrier or a managed area on the ground used to keep uninvolved people away from the flight area.",
+      "The drone's flight path.",
+      "A type of knot used to secure equipment."
+    ],
+    "correctIndex": 1,
+    "explanation": "A cordon can be established using cones, tape, or marshals to define the sterile area and prevent the public from accidentally walking into the operational zone, especially under the take-off and landing paths.",
+    "tip": "A well-managed cordon is a key mitigation for flights in public areas."
+  },
+  {
+    "id": "op_043",
+    "topic": "Flight Operations",
+    "stem": "What is the primary danger of flying a drone indoors without GPS?",
+    "options": [
+      "The drone will not be able to take off.",
+      "The drone will be in ATTI mode and will drift with any air currents, requiring constant pilot input to hold position.",
+      "The drone's camera will not work.",
+      "The drone's altitude hold will be disabled."
+    ],
+    "correctIndex": 1,
+    "explanation": "Indoor environments almost never have a GPS signal. The drone will revert to ATTI mode, where it will be susceptible to drift from drafts or its own prop wash. This requires a much higher level of pilot skill to control.",
+    "tip": "Many modern drones have Vision Positioning Systems (VPS) that can help them hold position indoors, but you should still be prepared to fly in full ATTI mode."
+  },
+  {
+    "id": "op_044",
+    "topic": "Flight Operations",
+    "stem": "The 'pitch' control on a standard drone controller makes the drone:",
+    "options": [
+      "Rotate on the spot.",
+      "Climb or descend.",
+      "Fly forwards or backwards.",
+      "Slide left or right."
+    ],
+    "correctIndex": 2,
+    "explanation": "Pitch is the movement around the horizontal, side-to-side axis. On a standard 'Mode 2' controller, this is achieved by moving the right stick forwards and backwards.",
+    "tip": "Think of the drone's 'nose' pitching up or down."
+  },
+  {
+    "id": "op_045",
+    "topic": "Flight Operations",
+    "stem": "What is the most important reason for keeping a maintenance log?",
+    "options": [
+      "To increase the resale value of the drone.",
+      "To track component life and ensure that parts are replaced before they are likely to fail.",
+      "To show to clients.",
+      "It is only required for drones that weigh more than 25kg."
+    ],
+    "correctIndex": 1,
+    "explanation": "A good maintenance log tracks the hours flown on the airframe and the cycles on components like batteries and propellers. This allows you to follow the manufacturer's recommended service schedule and replace parts proactively, which is a cornerstone of aviation safety.",
+    "tip": "Your flight logbook is a good place to also record your maintenance activities."
+  },
+  {
+    "id": "op_046",
+    "topic": "Flight Operations",
+    "stem": "What does a good pre-flight briefing with a visual observer cover?",
+    "options": [
+      "Only the planned flight path.",
+      "The weather forecast and nothing else.",
+      "The entire operation: flight plan, roles, responsibilities, communication methods, and emergency procedures.",
+      "Who will be flying the drone."
+    ],
+    "correctIndex": 2,
+    "explanation": "A comprehensive pre-flight brief ensures the entire crew is on the same page. It should be a structured conversation covering all aspects of the planned operation so that everyone knows their job and how the team will handle any problems.",
+    "tip": "Use a standardised briefing checklist (like 'I'M SAFE CATTLES') to ensure you don't miss anything important."
+  },
+  {
+    "id": "op_047",
+    "topic": "Flight Operations",
+    "stem": "What is 'vortex ring state' (also known as 'settling with power')?",
+    "options": [
+      "A stable, efficient state of hover.",
+      "A dangerous aerodynamic condition where the drone descends into its own downwash, causing a loss of lift and a sudden, rapid descent.",
+      "The spinning of the propellers creating small vortices at the tips.",
+      "A flight mode for performing aerial tricks."
+    ],
+    "correctIndex": 1,
+    "explanation": "This can occur if you descend vertically at a high rate of speed with power on. The propellers start to fly through their own turbulent air, and they lose their ability to generate lift, even if you apply full power.",
+    "tip": "The recovery is to push the cyclic forward to fly out of the column of turbulent air and regain clean air over the propellers."
+  },
+  {
+    "id": "op_048",
+    "topic": "Flight Operations",
+    "stem": "If you modify your drone (e.g., by adding a new, heavier camera), what must you re-evaluate?",
+    "options": [
+      "The colour scheme.",
+      "The drone's weight, balance (CG), and flight performance characteristics.",
+      "The drone's name.",
+      "Nothing needs to be re-evaluated."
+    ],
+    "correctIndex": 1,
+    "explanation": "Any modification can have a significant impact on safety. You must ensure the new MTOM is still within legal limits for your intended operation, that the CG is still correct, and you must understand how the modification affects flight time and handling.",
+    "tip": "Conduct a test flight in a safe, open area after any significant modification to fully understand its effect on performance."
+  },
+  {
+    "id": "op_049",
+    "topic": "Flight Operations",
+    "stem": "What is the primary risk of not securing your take-off/landing area from public access?",
+    "options": [
+      "Someone might steal your drone.",
+      "A person or dog could unexpectedly run into the area during the critical landing or take-off phase, causing an accident.",
+      "You might get a parking ticket.",
+      "Someone might complain about the noise."
+    ],
+    "correctIndex": 1,
+    "explanation": "The take-off and landing phases are the highest-risk parts of any flight. An incursion by an uninvolved person at this low altitude presents a significant risk of injury.",
+    "tip": "Even a single crew member acting as a marshal can be an effective way to manage and secure your operating area."
+  },
+  {
+    "id": "op_050",
+    "topic": "Flight Operations",
+    "stem": "What is a 'Standard Operating Procedure' (SOP)?",
+    "options": [
+      "A CAA regulation.",
+      "A set of pre-defined, written instructions for completing a routine task, designed to ensure it is carried out safely and consistently every time.",
+      "The drone manufacturer's user manual.",
+      "A verbal agreement between the pilot and the client."
+    ],
+    "correctIndex": 1,
+    "explanation": "SOPs are the foundation of professional aviation. Having a documented procedure for tasks like 'Pre-Flight Checks' or 'Emergency Landing' reduces errors and improves safety by ensuring consistency.",
+    "tip": "Even as a solo operator, writing your own simple SOPs is a fantastic way to improve your professionalism and safety."
+  }
+]
+
+

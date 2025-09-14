@@ -1,0 +1,704 @@
+[
+  {
+    "id": "met_001",
+    "topic": "Weather",
+    "stem": "In a METAR, you see 'FEW025'. What does this mean?",
+    "options": [
+      "Few clouds at 250 feet.",
+      "Few clouds at 2,500 feet.",
+      "Fog an visibility of 250 metres.",
+      "Wind from 025 degrees."
+    ],
+    "correctIndex": 1,
+    "explanation": "Cloud cover codes in METARs and TAFs use three digits to represent the height of the cloud base in hundreds of feet above ground level. FEW indicates 1-2 oktas (eighths) of cloud cover.",
+    "tip": "Remember the cloud cover sequence: FEW (Few), SCT (Scattered), BKN (Broken), OVC (Overcast)."
+  },
+  {
+    "id": "met_002",
+    "topic": "Weather",
+    "stem": "What is 'wind shear'?",
+    "options": [
+      "The average wind speed over a two-minute period.",
+      "A sudden and often dramatic change in wind speed and/or direction over a short distance.",
+      "The effect of buildings and trees blocking the wind.",
+      "A wind that consistently blows from one direction."
+    ],
+    "correctIndex": 1,
+    "explanation": "Wind shear can occur vertically or horizontally and is particularly dangerous for drones as it can cause sudden, unpredictable movements and a potential loss of control.",
+    "tip": "Wind shear is often found near the ground, behind large obstacles (mechanical turbulence), and near temperature inversions."
+  },
+  {
+    "id": "met_003",
+    "topic": "Weather",
+    "stem": "How does high air temperature affect drone performance?",
+    "options": [
+      "It improves performance by making the air denser.",
+      "It has no effect on performance.",
+      "It reduces performance because the air is less dense, providing less lift.",
+      "It makes the batteries last longer."
+    ],
+    "correctIndex": 2,
+    "explanation": "Hot air is less dense than cold air. This means propellers have less 'bite', requiring them to spin faster to generate the same amount of lift. This consumes more power and reduces overall performance.",
+    "tip": "This concept is known as 'Density Altitude'. On a hot day, your drone will perform as if it were at a higher physical altitude."
+  },
+  {
+    "id": "met_004",
+    "topic": "Weather",
+    "stem": "In a TAF, the code 'BECMG 1214 30015G25KT' appears. What does this mean?",
+    "options": [
+      "Between 12:00 and 14:00 UTC, the weather is bad.",
+      "At 12:14 UTC, the wind will be from 300 degrees.",
+      "Becoming, between 12:00 and 14:00 UTC, the wind will change to be from 300 degrees at 15 knots, gusting to 25 knots.",
+      "Temporarily between 12:00 and 14:00 UTC, the wind will be 300 knots."
+    ],
+    "correctIndex": 2,
+    "explanation": "TAF (Terminal Aerodrome Forecast) uses codes to show predicted weather changes. 'BECMG' indicates a permanent change expected to occur over the specified two-hour period (from 12:00Z to 14:00Z).",
+    "tip": "Understanding TAFs is critical for planning flights, as it tells you what the weather is expected to do later in the day."
+  },
+  {
+    "id": "met_005",
+    "topic": "Weather",
+    "stem": "What is a 'temperature inversion'?",
+    "options": [
+      "A normal condition where temperature decreases with altitude.",
+      "An atmospheric condition where temperature increases with altitude, trapping pollutants and reducing visibility.",
+      "The process of the air cooling down at night.",
+      "A type of cloud."
+    ],
+    "correctIndex": 1,
+    "explanation": "Normally, the air gets colder as you go higher. In an inversion, a layer of warm air sits on top of a layer of cold air, acting like a lid. This can trap fog, smoke, and haze, leading to very poor visibility.",
+    "tip": "Inversions are common on calm, clear nights and can persist into the morning, often creating hazy conditions."
+  },
+  {
+    "id": "met_006",
+    "topic": "Weather",
+    "stem": "You see towering, cauliflower-shaped clouds that are dark at the base. What type of cloud is this and what weather does it indicate?",
+    "options": [
+      "Cirrus, indicating fair weather.",
+      "Stratus, indicating drizzle and poor visibility.",
+      "Cumulonimbus, indicating thunderstorms, strong turbulence, and potential hail.",
+      "Altocumulus, indicating stable air."
+    ],
+    "correctIndex": 2,
+    "explanation": "This describes a Cumulonimbus (Cb) cloud, which is a thunderstorm cloud. These are extremely dangerous to all aircraft, including drones, due to severe turbulence, lightning, and strong up/down drafts.",
+    "tip": "Never fly in the vicinity of a thunderstorm. The visible cloud is only part of a much larger and more violent weather system."
+  },
+  {
+    "id": "met_007",
+    "topic": "Weather",
+    "stem": "In a METAR, visibility is reported as '6000'. What does this mean?",
+    "options": [
+      "Visibility is 6000 feet.",
+      "Visibility is 6 nautical miles.",
+      "Visibility is 6000 metres (6km).",
+      "Visibility is unlimited."
+    ],
+    "correctIndex": 2,
+    "explanation": "In aviation weather reports, when visibility is between 1000m and 9999m, it is given as a four-digit number in metres. 9999 indicates visibility of 10km or more.",
+    "tip": "The legal minimum visibility for drone flight in the UK is typically 5km, so '6000' would be acceptable."
+  },
+  {
+    "id": "met_008",
+    "topic": "Weather",
+    "stem": "What is 'mechanical turbulence'?",
+    "options": [
+      "Turbulence caused by a fault in the drone's motors.",
+      "Smooth, predictable airflow.",
+      "The disruption of airflow caused by wind passing over and around obstacles like buildings, hills, and trees.",
+      "Turbulence caused by heating from the sun."
+    ],
+    "correctIndex": 2,
+    "explanation": "This creates eddies and unpredictable currents, especially on the downwind (leeward) side of obstacles. It can be a significant hazard when flying close to structures.",
+    "tip": "The larger the obstacle and the stronger the wind, the more severe the mechanical turbulence will be."
+  },
+  {
+    "id": "met_009",
+    "topic": "Weather",
+    "stem": "A TAF includes the code 'PROB30'. What does this mean?",
+    "options": [
+      "The forecast is 30% accurate.",
+      "There is a 30% probability of a certain weather condition occurring.",
+      "The wind will be from 030 degrees.",
+      "The forecast is valid for the next 30 minutes."
+    ],
+    "correctIndex": 1,
+    "explanation": "PROB (Probability) followed by a number (30 or 40) indicates the percentage chance of a weather event (like thunderstorms or fog) occurring during the specified time period.",
+    "tip": "PROB30 is a low probability, while PROB40 is a moderate probability. It's a key indicator for a pilot to watch for deteriorating conditions."
+  },
+  {
+    "id": "met_010",
+    "topic": "Weather",
+    "stem": "What is the 'dew point'?",
+    "options": [
+      "The point in the morning when dew forms on the grass.",
+      "The temperature at which the air becomes saturated with water vapour and condensation begins to form.",
+      "A measure of how hot it feels.",
+      "The freezing point of water in the atmosphere."
+    ],
+    "correctIndex": 1,
+    "explanation": "When the air temperature cools down to the dew point, water vapour will condense into visible water droplets, forming fog, mist, or clouds.",
+    "tip": "If the temperature and dew point are very close together, it is a strong indicator that fog or low cloud is likely to form."
+  },
+  {
+    "id": "met_011",
+    "topic": "Weather",
+    "stem": "In a METAR or TAF, wind direction is given in degrees from:",
+    "options": [
+      "Magnetic North",
+      "The pilot's current position",
+      "True North",
+      "The nearest airport runway"
+    ],
+    "correctIndex": 2,
+    "explanation": "Aviation weather reports always reference wind direction relative to True North. This is a standard convention for all meteorology.",
+    "tip": "Remember that air traffic controllers give wind direction relative to Magnetic North, but written reports (METARs/TAFs) use True North."
+  },
+  {
+    "id": "met_012",
+    "topic": "Weather",
+    "stem": "The code 'BKN015' is in the TAF for your planned flight time. What operational restriction does this imply?",
+    "options": [
+      "None, the weather is fine.",
+      "The wind will be 15 knots.",
+      "You will be unable to fly as the cloud base is broken at 1,500 feet, which is below your likely operating altitude.",
+      "You must not fly above 1,500 feet, and must remain well clear of the broken cloud layer."
+    ],
+    "correctIndex": 3,
+    "explanation": "A broken cloud layer at 1,500 feet (AGL) is well above the 400ft (120m) maximum altitude for most drone flights. However, you must still maintain a safe vertical separation and not enter the cloud.",
+    "tip": "This doesn't stop you from flying, but it does define the ceiling for your operation."
+  },
+  {
+    "id": "met_013",
+    "topic": "Weather",
+    "stem": "What is a 'sea breeze'?",
+    "options": [
+      "A breeze that blows at all times near the sea.",
+      "A local wind that blows from the sea towards the land during the day, caused by the land heating up faster than the sea.",
+      "A wind that blows from the land out to sea during the day.",
+      "Another name for a hurricane."
+    ],
+    "correctIndex": 1,
+    "explanation": "During the day, the land heats up, causing air to rise. Cooler, denser air from over the sea then moves inland to replace it, creating a noticeable onshore breeze.",
+    "tip": "When planning a coastal flight, expect the wind to be blowing onshore and to increase in strength as the day gets warmer."
+  },
+  {
+    "id": "met_014",
+    "topic": "Weather",
+    "stem": "You see 'CAVOK' in a METAR. What does this mean?",
+    "options": [
+      "Caution, Volcanic Ash Nearby.",
+      "The weather is very bad.",
+      "Ceiling And Visibility OK - meaning good weather conditions with no significant cloud or weather.",
+      "The airport is closed."
+    ],
+    "correctIndex": 2,
+    "explanation": "CAVOK is a shorthand for good weather. It means visibility is 10km or more, there are no clouds below 5,000ft, and there is no significant weather (like rain or fog) to report.",
+    "tip": "If you see CAVOK, it's generally a very good day for flying."
+  },
+  {
+    "id": "met_015",
+    "topic": "Weather",
+    "stem": "What is the primary danger of aircraft icing for a drone?",
+    "options": [
+      "It can interfere with the GPS signal.",
+      "Ice building up on the propellers disrupts the airflow, reducing lift and potentially causing a stall.",
+      "It can make the drone look white.",
+      "It only happens to manned aircraft."
+    ],
+    "correctIndex": 1,
+    "explanation": "Ice changes the shape of the aerofoil (the propeller), making it less efficient or completely ineffective. The added weight of the ice also severely degrades performance.",
+    "tip": "Icing can occur even if the ground temperature is above freezing, if you fly up into a layer of cloud where the temperature is 0°C or below."
+  },
+  {
+    "id": "met_016",
+    "topic": "Weather",
+    "stem": "A METAR shows the wind as '27010G20KT'. What does this mean?",
+    "options": [
+      "Wind from 270 degrees at a speed of 10 knots, gusting to 20 knots.",
+      "Wind from 10 degrees at a speed of 20 knots, gusting to 27 knots.",
+      "Wind from 270 degrees at a steady 10 to 20 knots.",
+      "Wind from 270 degrees at a speed of 1,020 knots."
+    ],
+    "correctIndex": 0,
+    "explanation": "The first three digits are the wind direction in degrees (True). The next two are the mean speed in knots. 'G' indicates gusts, and the final two digits are the maximum gust speed.",
+    "tip": "The gust speed is the most important number for a drone pilot, as this is the maximum force the drone will need to fight against."
+  },
+  {
+    "id": "met_017",
+    "topic": "Weather",
+    "stem": "What is 'atmospheric pressure'?",
+    "options": [
+      "The pressure a pilot feels to complete a flight.",
+      "The weight of the air in the atmosphere pressing down on the Earth's surface.",
+      "A measure of wind speed.",
+      "The pressure inside the drone's battery."
+    ],
+    "correctIndex": 1,
+    "explanation": "Atmospheric pressure is measured with a barometer. High pressure is generally associated with stable, fair weather, while low pressure is associated with unstable, poor weather.",
+    "tip": "Your drone's barometer uses changes in air pressure to calculate its altitude."
+  },
+  {
+    "id": "met_018",
+    "topic": "Weather",
+    "stem": "In a TAF, the code 'TEMPO 1518' is used. What does it signify?",
+    "options": [
+      "The temperature between 15:00 and 18:00 will be high.",
+      "The forecast is temporary and will be updated.",
+      "A weather condition is expected to occur temporarily, for periods of less than an hour, between 15:00 and 18:00 UTC.",
+      "The wind will be from 150 degrees at 18 knots."
+    ],
+    "correctIndex": 2,
+    "explanation": "TEMPO indicates a temporary fluctuation in the weather. For example, it might be used to forecast occasional rain showers or a temporary drop in visibility during the specified period.",
+    "tip": "Unlike BECMG which is a permanent change, TEMPO indicates that conditions will likely return to the previous state."
+  },
+  {
+    "id": "met_019",
+    "topic": "Weather",
+    "stem": "What is the 'wind gradient'?",
+    "options": [
+      "A type of weather map.",
+      "The tendency for wind speed to increase with altitude.",
+      "A sudden change in wind direction.",
+      "The colour scale used to show wind speed on a forecast."
+    ],
+    "correctIndex": 1,
+    "explanation": "Due to friction with the ground and obstacles, wind speed is generally slower at the surface and increases as you go higher. This effect is known as the wind gradient.",
+    "tip": "Be aware that the wind at your operating altitude (e.g., 200ft) could be significantly stronger than what you feel on the ground."
+  },
+  {
+    "id": "met_020",
+    "topic": "Weather",
+    "stem": "You are reading a METAR and see '-RA'. What does this mean?",
+    "options": [
+      "Strong winds.",
+      "Risk of Ash.",
+      "Light Rain.",
+      "Radio failure."
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a code for present weather phenomena. 'RA' stands for rain. The prefix '-' indicates light intensity. No prefix means moderate, and '+' means heavy (e.g., '+RA' is heavy rain).",
+    "tip": "Other common codes include SN (Snow), DZ (Drizzle), and FG (Fog)."
+  },
+  {
+    "id": "met_021",
+    "topic": "Weather",
+    "stem": "What is the primary danger of flying in fog?",
+    "options": [
+      "The drone can get wet.",
+      "Loss of Visual Line of Sight (VLOS).",
+      "The GPS signal can be blocked.",
+      "It can cause the motors to rust."
+    ],
+    "correctIndex": 1,
+    "explanation": "Fog is essentially a cloud on the ground. Flying in fog means you will quickly lose sight of your drone, making it impossible to maintain VLOS, which is a legal requirement and a critical safety function.",
+    "tip": "If fog begins to form during your flight, land immediately while you can still see your drone."
+  },
+  {
+    "id": "met_022",
+    "topic": "Weather",
+    "stem": "What does a large difference between the surface temperature and the dew point indicate?",
+    "options": [
+      "That fog is about to form.",
+      "That the air is very dry and cloud/fog formation is unlikely.",
+      "That a thunderstorm is imminent.",
+      "That the wind is very strong."
+    ],
+    "correctIndex": 1,
+    "explanation": "A large 'spread' between temperature and dew point means the air is holding very little moisture relative to its maximum capacity. Condensation and cloud formation are therefore unlikely.",
+    "tip": "A small spread (2-3 degrees or less) is a warning sign for potential fog or low cloud."
+  },
+  {
+    "id": "met_023",
+    "topic": "Weather",
+    "stem": "What does 'unstable air' mean in meteorology?",
+    "options": [
+      "The wind is constantly changing direction.",
+      "The air is very smooth and calm.",
+      "A parcel of air that is warmer than its surroundings will continue to rise, leading to vertical cloud development and turbulence.",
+      "The air pressure is very high."
+    ],
+    "correctIndex": 2,
+    "explanation": "Unstable air is associated with bumpy, turbulent conditions, good visibility outside of showers, and 'heap' type clouds (Cumulus).",
+    "tip": "Stable air, by contrast, resists vertical movement, leading to smooth conditions, layered (Stratus) clouds, and potentially poor, hazy visibility."
+  },
+  {
+    "id": "met_024",
+    "topic": "Weather",
+    "stem": "A METAR for an airport shows 'OVC005'. You are planning to fly 3 miles away from the airport. Can you fly?",
+    "options": [
+      "Yes, as you are outside the airport.",
+      "No, an overcast cloud layer at 500 feet means you will likely not have sufficient visibility or clearance from cloud.",
+      "Yes, but you must fly above 500 feet.",
+      "Yes, but only if you have a C2 class drone."
+    ],
+    "correctIndex": 1,
+    "explanation": "An overcast layer at just 500 feet above ground level indicates very poor weather. It's likely that the visibility will also be poor, and you would be unable to maintain the required separation from cloud.",
+    "tip": "While a METAR is for a specific airport, it gives a very good indication of the general weather conditions in the surrounding area."
+  },
+  {
+    "id": "met_025",
+    "topic": "Weather",
+    "stem": "You are planning to fly in a narrow valley on a calm, sunny day. What local wind effect might you expect?",
+    "options": [
+      "A strong wind blowing directly down into the valley.",
+      "No wind at all.",
+      "An 'anabatic' wind, which is an upslope wind caused by the sun heating the valley sides.",
+      "A 'katabatic' wind, which is a downslope wind."
+    ],
+    "correctIndex": 2,
+    "explanation": "During the day, the sun heats the slopes of the valley. This heats the air in contact with them, which then flows upwards along the slopes towards the higher ground.",
+    "tip": "At night, the opposite happens: the slopes cool, cooling the air, which then becomes denser and flows downslope (a katabatic wind)."
+  },
+  {
+    "id": "met_026",
+    "topic": "Weather",
+    "stem": "What is the primary source of weather information specifically tailored for aviation in the UK?",
+    "options": [
+      "Standard TV weather forecasts (e.g., BBC Weather).",
+      "The UK Met Office's specialist aviation services.",
+      "Smartphone weather apps.",
+      "Looking out of the window."
+    ],
+    "correctIndex": 1,
+    "explanation": "While general weather forecasts are useful, only specialist aviation forecasts from sources like the Met Office provide the detailed and specific information (like cloud base in AGL and visibility in metres) required for safe flight planning.",
+    "tip": "Many drone apps (like Drone Scene) integrate these official aviation weather sources directly."
+  },
+  {
+    "id": "met_027",
+    "topic": "Weather",
+    "stem": "A METAR ends with 'NOSIG'. What does this signify?",
+    "options": [
+      "There is no signal from the weather station.",
+      "No significant change is expected in the next 2 hours.",
+      "The report is not signed and is therefore not official.",
+      "There is no wind."
+    ],
+    "correctIndex": 1,
+    "explanation": "NOSIG is a trend forecast sometimes appended to a METAR. It indicates that for the next two hours, no significant changes to the reported weather are expected.",
+    "tip": "This gives a pilot confidence that the conditions they are currently seeing are likely to persist for the duration of their flight."
+  },
+  {
+    "id": "met_028",
+    "topic": "Weather",
+    "stem": "What does a 'front' on a weather map represent?",
+    "options": [
+      "The front of a cloud.",
+      "A line of equal temperature.",
+      "The boundary between two different air masses (e.g., a warm air mass and a cold air mass).",
+      "A line showing the predicted wind speed."
+    ],
+    "correctIndex": 2,
+    "explanation": "The interaction at these boundaries is what causes most significant weather. A cold front, for example, is where cold air is aggressively pushing warm air upwards, often leading to heavy showers and strong winds.",
+    "tip": "The passage of a front over your operating area will almost always be accompanied by a significant change in weather."
+  },
+  {
+    "id": "met_029",
+    "topic": "Weather",
+    "stem": "What is the primary danger of flying in conditions of freezing rain?",
+    "options": [
+      "It can short-circuit the electronics.",
+      "It causes rapid and severe airframe icing.",
+      "It can reduce visibility.",
+      "It is not dangerous for drones."
+    ],
+    "correctIndex": 1,
+    "explanation": "Freezing rain consists of supercooled water droplets that freeze instantly on contact with any surface that is at or below 0°C. This can cause an extremely rapid and dangerous buildup of ice on the propellers and airframe.",
+    "tip": "Freezing rain is one of the most hazardous weather conditions for any aircraft and must be avoided."
+  },
+  {
+    "id": "met_030",
+    "topic": "Weather",
+    "stem": "Why should you be cautious when flying on the leeward (downwind) side of a large hill?",
+    "options": [
+      "The signal from your controller may be blocked.",
+      "You may experience significant mechanical turbulence and downdrafts (rotors).",
+      "It is likely to be much colder.",
+      "There is no reason to be cautious; it is the calmest place to fly."
+    ],
+    "correctIndex": 1,
+    "explanation": "As wind flows over the hill, it becomes turbulent on the other side, creating rotating air currents (rotors) and strong downdrafts that can push a drone into the ground with little warning.",
+    "tip": "The stronger the wind, the more violent and extensive this turbulence will be. Always be aware of which side of a hill is the leeward side."
+  },
+  {
+    "id": "met_031",
+    "topic": "Weather",
+    "stem": "A TAF shows 'FM1600 24025G40KT'. What does FM stand for?",
+    "options": [
+      "For More information...",
+      "From",
+      "For Minutes...",
+      "Frequency Modulation"
+    ],
+    "correctIndex": 1,
+    "explanation": "'FM' indicates a rapid change in the weather, expected to occur at the specified time (16:00 UTC). After this time, the new forecast (wind from 240 degrees at 25 knots, gusting 40 knots) will replace the previous one.",
+    "tip": "Unlike BECMG which is a gradual change over a period, FM indicates a more immediate and rapid shift in conditions."
+  },
+  {
+    "id": "met_032",
+    "topic": "Weather",
+    "stem": "What is the ICAO standard atmosphere pressure at sea level?",
+    "options": [
+      "1000.0 mb",
+      "980.5 mb",
+      "1013.25 mb",
+      "1025.5 mb"
+    ],
+    "correctIndex": 2,
+    "explanation": "The International Civil Aviation Organization (ICAO) defines a standard atmosphere for calibrating instruments and for aircraft performance calculations. At sea level, the standard pressure is 1013.25 millibars (or hectopascals) and the standard temperature is 15°C.",
+    "tip": "Your drone's barometer uses this standard as a baseline to calculate its altitude based on the current air pressure."
+  },
+  {
+    "id": "met_033",
+    "topic": "Weather",
+    "stem": "You are at an airfield and the ATIS (Automatic Terminal Information Service) reports a cloud base of 'Broken at 800 feet'. Can you legally fly your drone up to 400ft?",
+    "options": [
+      "Yes, as 400ft is below 800ft.",
+      "No, you must remain a certain distance clear of clouds, and at 400ft you would be too close to the 800ft cloud base.",
+      "Yes, but you must get permission from the control tower.",
+      "No, flying is not permitted if the cloud base is broken."
+    ],
+    "correctIndex": 1,
+    "explanation": "Regulations require you to remain clear of cloud. While there isn't a single fixed number for drones, the general guidance for VFR flight is to be 1,000ft vertically clear. In this scenario, flying at 400ft would place you well inside the cloud safety buffer.",
+    "tip": "If the cloud base is low, you must significantly reduce your maximum operating altitude to maintain a safe separation."
+  },
+  {
+    "id": "met_034",
+    "topic": "Weather",
+    "stem": "What does the term 'advection fog' refer to?",
+    "options": [
+      "Fog that forms on clear nights as the ground cools.",
+      "Fog that forms when warm, moist air moves horizontally over a colder surface.",
+      "Fog that is caused by industrial pollution.",
+      "Fog that forms as air is forced up a hillside."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is very common around the coast, when warm, moist air from over the sea moves in over the colder land, causing the moisture to condense into fog.",
+    "tip": "Advection fog can form very quickly and can be very thick, reducing visibility to near zero in minutes."
+  },
+  {
+    "id": "met_035",
+    "topic": "Weather",
+    "stem": "In a METAR, 'VRB02KT' indicates:",
+    "options": [
+      "Very rough air with 2 knot winds.",
+      "Wind is variable in direction at 2 knots.",
+      "Wind is from 020 degrees.",
+      "Visibility is restricted below 2km."
+    ],
+    "correctIndex": 1,
+    "explanation": "'VRB' is used when the wind direction is variable and cannot be given a steady direction. This typically happens when the wind speed is very light (usually 3 knots or less).",
+    "tip": "While the wind is light, 'VRB' can still mean the air is unpredictable at a micro level."
+  },
+  {
+    "id": "met_036",
+    "topic": "Weather",
+    "stem": "What is 'relative humidity'?",
+    "options": [
+      "A measure of how humid your relatives find the weather.",
+      "The absolute amount of water vapour in the air.",
+      "The amount of water vapour present in the air, expressed as a percentage of the maximum amount the air could hold at that temperature.",
+      "A forecast of whether it is going to rain."
+    ],
+    "correctIndex": 2,
+    "explanation": "A relative humidity of 100% means the air is completely saturated. Any further cooling or addition of moisture will result in condensation (e.g., fog or cloud).",
+    "tip": "High relative humidity (above 90%) is a strong indicator of poor visibility or the potential for fog."
+  },
+  {
+    "id": "met_037",
+    "topic": "Weather",
+    "stem": "You are flying in a built-up urban area. What effect will the buildings have on the wind?",
+    "options": [
+      "They will block the wind entirely, creating calm conditions.",
+      "They will create significant mechanical turbulence, with strong up/down drafts and unpredictable gusts.",
+      "They will cause the wind to always blow from the south.",
+      "They will have no effect on the wind above about 10 metres."
+    ],
+    "correctIndex": 1,
+    "explanation": "Urban areas create a chaotic environment for wind. Buildings can channel wind, increasing its speed in some areas, while creating turbulent rotors and dead zones in others.",
+    "tip": "Be extremely cautious when flying in urban environments, as the wind you feel at street level can be very different from the wind between or above the buildings."
+  },
+  {
+    "id": "met_038",
+    "topic": "Weather",
+    "stem": "The code 'TSRA' in a TAF is a significant warning. What does it stand for?",
+    "options": [
+      "Traffic Service Radar Available.",
+      "Temporary Strong Rain.",
+      "Thunderstorm with Rain.",
+      "Terminal Safety Reporting Area."
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a forecast for a thunderstorm with associated rain. This indicates dangerous flying conditions including severe turbulence, lightning, and strong winds, and all flight operations should be avoided.",
+    "tip": "Any mention of 'TS' (Thunderstorm) in a TAF is a major red flag for a drone pilot."
+  },
+  {
+    "id": "met_039",
+    "topic": "Weather",
+    "stem": "What is 'isobar' on a weather chart?",
+    "options": [
+      "A line connecting points of equal temperature.",
+      "A line connecting points of equal wind speed.",
+      "A line connecting points of equal atmospheric pressure.",
+      "A type of bar where pilots gather."
+    ],
+    "correctIndex": 2,
+    "explanation": "Isobars are the contour lines on a pressure chart. When the isobars are close together, it indicates a steep pressure gradient and therefore strong winds.",
+    "tip": "If isobars are spaced far apart, it indicates light winds."
+  },
+  {
+    "id": "met_040",
+    "topic": "Weather",
+    "stem": "If you fly your drone through a light, non-freezing rain shower, what is a potential hidden danger after you land?",
+    "options": [
+      "There is no danger if the drone is dried properly.",
+      "The drone will need a full service.",
+      "Water may have penetrated the motors, which could cause corrosion and bearing failure later on.",
+      "The drone's colour may fade."
+    ],
+    "correctIndex": 2,
+    "explanation": "Even if the drone appears to work fine after drying, moisture trapped inside the motor bearings can lead to corrosion, which can cause the motor to seize up on a future flight without warning.",
+    "tip": "It is best practice to avoid flying in any rain unless the aircraft is specifically rated for it."
+  },
+  {
+    "id": "met_041",
+    "topic": "Weather",
+    "stem": "Which type of cloud is most likely to produce steady, light to moderate drizzle and poor visibility over a wide area?",
+    "options": [
+      "Cumulonimbus",
+      "Cirrocumulus",
+      "Nimbostratus",
+      "Cumulus"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nimbostratus is a thick, grey, featureless layer of cloud associated with widespread and continuous precipitation. It is a classic 'bad weather' cloud.",
+    "tip": "The 'Nimbo' or 'Nimbus' prefix/suffix means rain-bearing."
+  },
+  {
+    "id": "met_042",
+    "topic": "Weather",
+    "stem": "A METAR shows 'R24/1200'. What does this refer to?",
+    "options": [
+      "Rainfall of 24mm over 1200 seconds.",
+      "Runway Visual Range (RVR) for runway 24 is 1200 metres.",
+      "Wind from 240 degrees at 1200 feet.",
+      "The report was issued at 24 minutes past 12:00."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a specific piece of information for manned aircraft pilots, showing the visibility along a particular runway. While not directly used by drone pilots, understanding it is part of being able to fully decode a METAR.",
+    "tip": "RVR is only reported when visibility is poor."
+  },
+  {
+    "id": "met_043",
+    "topic": "Weather",
+    "stem": "What is the primary cause of wind?",
+    "options": [
+      "The rotation of the Earth.",
+      "Differences in atmospheric pressure, causing air to move from high-pressure areas to low-pressure areas.",
+      "The movement of clouds.",
+      "The gravitational pull of the moon."
+    ],
+    "correctIndex": 1,
+    "explanation": "The fundamental cause of all wind is the uneven heating of the Earth's surface by the sun, which creates pressure differences. Air flows from high to low pressure to try and balance this out.",
+    "tip": "The bigger the pressure difference, the stronger the wind."
+  },
+  {
+    "id": "met_044",
+    "topic": "Weather",
+    "stem": "You check the TAF and it shows 'OVC003'. What does this mean for your flight?",
+    "options": [
+      "The flight is fine, as the cloud is at 3,000 feet.",
+      "The flight is impossible. An overcast cloud layer at 300 feet means you cannot legally or safely take off.",
+      "The wind will be from 003 degrees.",
+      "There will be 3 layers of overcast cloud."
+    ],
+    "correctIndex": 1,
+    "explanation": "An overcast ceiling at 300 feet (below your 400ft legal limit) means you would be flying inside a cloud, which is illegal and unsafe as you would have no visual reference.",
+    "tip": "Any forecast cloud base below about 500-600 feet is a major red flag for drone operations."
+  },
+  {
+    "id": "met_045",
+    "topic": "Weather",
+    "stem": "What is 'radiation fog'?",
+    "options": [
+      "Fog caused by a radioactive leak.",
+      "Fog that forms over the sea.",
+      "Fog that forms on calm, clear nights as the ground radiates heat into space and cools the air above it to its dew point.",
+      "Fog that glows in the dark."
+    ],
+    "correctIndex": 2,
+    "explanation": "This is the most common type of fog found inland. The lack of cloud cover allows the ground to cool rapidly overnight, which in turn cools the layer of air in contact with it.",
+    "tip": "Radiation fog is often found in valleys and low-lying areas and usually 'burns off' as the sun rises and heats the ground."
+  },
+  {
+    "id": "met_046",
+    "topic": "Weather",
+    "stem": "What does QNH refer to on an aviation weather report?",
+    "options": [
+      "The quality of the weather data.",
+      "The atmospheric pressure corrected to mean sea level.",
+      "The current wind speed in knots.",
+      "The cloud base height."
+    ],
+    "correctIndex": 1,
+    "explanation": "QNH is the pressure setting used by manned aircraft so that their altimeters all show the correct altitude relative to sea level. It is given in millibars (or hectopascals).",
+    "tip": "While your drone uses GPS and a barometer for its height AGL, the QNH value gives you a good indication of whether the pressure is high or low."
+  },
+  {
+    "id": "met_047",
+    "topic": "Weather",
+    "stem": "Which of these is the most significant danger when flying in a 'High Pressure' system?",
+    "options": [
+      "Strong winds and thunderstorms.",
+      "Widespread poor visibility due to haze and trapped pollutants, especially in summer.",
+      "Heavy, continuous rain.",
+      "There are no dangers in a high-pressure system."
+    ],
+    "correctIndex": 1,
+    "explanation": "High pressure is associated with stable, sinking air. This acts like a lid, trapping dust, pollen, and pollutants, which can lead to hazy conditions and poor visibility over a large area.",
+    "tip": "Don't assume that 'high pressure' always means 'perfect flying weather'. Visibility can be a significant issue."
+  },
+  {
+    "id": "met_048",
+    "topic": "Weather",
+    "stem": "A TAF shows 'WS020/30045KT'. What does this mean?",
+    "options": [
+      "The weather station is broken.",
+      "Widespread visibility of 20km.",
+      "A warning of wind shear at 2,000 feet, with the wind at that height being from 300 degrees at 45 knots.",
+      "The surface wind will be from 020 degrees."
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a specific forecast for wind shear (WS). It tells manned aircraft pilots what the wind is doing at a certain altitude (020 = 2,000ft). For a drone pilot, it's a clear warning of significant turbulence in the area.",
+    "tip": "The presence of a wind shear warning in a TAF indicates that the atmosphere is very unstable."
+  },
+  {
+    "id": "met_049",
+    "topic": "Weather",
+    "stem": "What type of weather is typically associated with a 'cold front'?",
+    "options": [
+      "Calm winds and clear skies.",
+      "A narrow band of heavy showers, potentially thunderstorms, and a sharp change in wind direction.",
+      "Light, persistent drizzle and fog.",
+      "A gradual improvement in the weather."
+    ],
+    "correctIndex": 1,
+    "explanation": "A cold front is where a mass of cold, dense air is aggressively undercutting a warmer air mass, forcing it to rise rapidly. This creates unstable, convective weather with strong vertical air movements.",
+    "tip": "The weather behind a cold front often improves rapidly, with clearing skies and good visibility."
+  },
+  {
+    "id": "met_050",
+    "topic": "Weather",
+    "stem": "Why is it important to check the 'Kp index' before flying?",
+    "options": [
+      "It predicts the likelihood of rain.",
+      "It measures the level of geomagnetic activity, which can interfere with GPS signals.",
+      "It is the official measure of wind speed.",
+      "It is not relevant to drone flying."
+    ],
+    "correctIndex": 1,
+    "explanation": "The Kp index is a scale of geomagnetic storm activity. A high Kp index (typically 5 or above) indicates a solar storm that can disrupt the accuracy and reliability of GPS satellite signals.",
+    "tip": "There are many free apps (like UAV Forecast) that show the current Kp index. It's a quick and easy check to add to your pre-flight routine."
+  }
+]
+
+

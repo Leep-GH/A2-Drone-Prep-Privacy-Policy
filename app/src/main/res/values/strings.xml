@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">A2 CofC Drone Prep</string>
+    
+    <!-- Home Screen -->
+    <string name="practice">Practice</string>
+    <string name="mock_exam">Mock Exam</string>
+    <string name="questions">Questions</string>
+    <string name="time_limit">Time Limit</string>
+    <string name="topics">Topics</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="study">Study</string>
+    <string name="flashcards">Flashcards</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Topic Picker -->
+    <string name="choose_topics">Choose Topics</string>
+    <string name="select_all">Select all</string>
+    <string name="clear">Clear</string>
+    <string name="selected_count">%d selected</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    
+    <!-- Quiz Screen -->
+    <string name="question_counter" formatted="false">%d of %d</string>
+    <string name="flag_question">Flag</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="end_mock">End mock</string>
+    <string name="resume">Resume</string>
+    <string name="end_mock_title">End mock?</string>
+    <string name="end_mock_message">Leaving now will finish the mock and show your results.</string>
+    
+    <!-- Results Screen -->
+    <string name="quiz_complete">Quiz Complete!</string>
+    <string name="passed">Passed!</string>
+    <string name="failed">Failed</string>
+    <string name="score_format">%d%%</string>
+    <string name="correct_answers" formatted="false">%d/%d correct</string>
+    <string name="review">Review</string>
+    <string name="review_flagged">Review Flagged (%d)</string>
+    <string name="home">Home</string>
+    <string name="retake">Retake</string>
+    
+    <!-- Review Screen -->
+    <string name="correct_answer">Correct answer: %s</string>
+    <string name="your_answer">Your answer: %s</string>
+    <string name="reference">Ref: %s</string>
+    <string name="tip">Tip: %s</string>
+    
+    <!-- Study Screen -->
+    <string name="previous">Previous</string>
+    <string name="explanation">Explanation</string>
+    
+    <!-- Flashcards -->
+    <string name="tap_card_to_flip">Tap card to flip</string>
+    <string name="again">Again</string>
+    <string name="hard">Hard</string>
+    <string name="good">Good</string>
+    <string name="easy">Easy</string>
+    
+    <!-- Settings -->
+    <string name="dark_mode">Dark Mode</string>
+    <string name="clear_history">Clear History</string>
+    <string name="clear_stats">Clear Stats</string>
+    <string name="export_data">Export Data</string>
+    
+    <!-- Error Messages -->
+    <string name="error_loading_questions">Error loading questions. Please try again.</string>
+    <string name="error_saving_result">Failed to save quiz result.</string>
+    <string name="error_no_questions">No questions found for selected topics.</string>
+    
+    <!-- Success Messages -->
+    <string name="data_cleared">Data cleared successfully</string>
+    <string name="excellent_work">Excellent work!</string>
+    <string name="great_job">Great job!</string>
+    <string name="good_work">Good work!</string>
+    <string name="keep_practicing">Keep practicing!</string>
+    <string name="needs_improvement">Needs improvement</string>
+</resources>

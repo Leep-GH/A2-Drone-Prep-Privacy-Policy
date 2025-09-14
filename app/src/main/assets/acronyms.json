@@ -1,0 +1,177 @@
+{
+  "acronyms": [
+    {
+      "acronym": "A2 CofC",
+      "definition": "A2 Certificate of Competency - A qualification allowing drone pilots to fly closer to people in the A2 subcategory"
+    },
+    {
+      "acronym": "AAIB",
+      "definition": "Air Accidents Investigation Branch - The UK agency responsible for investigating aviation accidents and incidents"
+    },
+    {
+      "acronym": "AGL",
+      "definition": "Above Ground Level - Height measured from the surface directly below the aircraft"
+    },
+    {
+      "acronym": "AMSL",
+      "definition": "Above Mean Sea Level - Height measured from sea level"
+    },
+    {
+      "acronym": "ANO",
+      "definition": "Air Navigation Order - The primary UK legislation governing aviation operations"
+    },
+    {
+      "acronym": "ATC",
+      "definition": "Air Traffic Control - Service providing information and control to aircraft to ensure safe separation"
+    },
+    {
+      "acronym": "ATTI",
+      "definition": "Attitude Mode - Flight mode where the drone maintains its orientation but may drift without GPS position hold"
+    },
+    {
+      "acronym": "BMFA",
+      "definition": "British Model Flying Association - UK organization representing model aircraft enthusiasts"
+    },
+    {
+      "acronym": "BVLOS",
+      "definition": "Beyond Visual Line of Sight - Operating a drone when the pilot cannot see it directly"
+    },
+    {
+      "acronym": "CAA",
+      "definition": "Civil Aviation Authority - The UK's independent aviation regulator"
+    },
+    {
+      "acronym": "CAP",
+      "definition": "Civil Aviation Publication - Official guidance documents published by the CAA"
+    },
+    {
+      "acronym": "CG",
+      "definition": "Centre of Gravity - The point where the aircraft's weight is considered to be concentrated"
+    },
+    {
+      "acronym": "DMARES",
+      "definition": "Drone and Model Aircraft Registration and Education Service - CAA's online registration system"
+    },
+    {
+      "acronym": "EASA",
+      "definition": "European Union Aviation Safety Agency - EU body that develops aviation safety regulations"
+    },
+    {
+      "acronym": "EC785/2004",
+      "definition": "European Commission Regulation 785/2004 - Sets insurance requirements for aircraft including drones"
+    },
+    {
+      "acronym": "EMF",
+      "definition": "Electromagnetic Field - Can interfere with drone navigation systems and control links"
+    },
+    {
+      "acronym": "FMS",
+      "definition": "Flight Management System - Automated system for planning and executing flight paths"
+    },
+    {
+      "acronym": "FPV",
+      "definition": "First Person View - Flying using a video feed from the aircraft's camera"
+    },
+    {
+      "acronym": "FRZ",
+      "definition": "Flight Restriction Zone - Areas where drone flights are prohibited or restricted"
+    },
+    {
+      "acronym": "GDPR",
+      "definition": "General Data Protection Regulation - EU regulation governing personal data processing"
+    },
+    {
+      "acronym": "GPS",
+      "definition": "Global Positioning System - Satellite navigation system providing location and time information"
+    },
+    {
+      "acronym": "GVC",
+      "definition": "General VLOS Certificate - Authorization for specific beyond visual line of sight operations"
+    },
+    {
+      "acronym": "IMU",
+      "definition": "Inertial Measurement Unit - Device measuring aircraft orientation and movement using accelerometers and gyroscopes"
+    },
+    {
+      "acronym": "LiPo",
+      "definition": "Lithium Polymer - Type of rechargeable battery commonly used in drones"
+    },
+    {
+      "acronym": "METAR",
+      "definition": "Meteorological Aerodrome Report - Standardized weather report format used in aviation"
+    },
+    {
+      "acronym": "MTOM",
+      "definition": "Maximum Take-Off Mass - The maximum weight at which an aircraft is certified to take off"
+    },
+    {
+      "acronym": "NATS",
+      "definition": "National Air Traffic Services - UK's main air traffic control provider"
+    },
+    {
+      "acronym": "NOTAM",
+      "definition": "Notice to Air Missions - Official notice of temporary hazards or changes in airspace"
+    },
+    {
+      "acronym": "PIC",
+      "definition": "Pilot in Command - The pilot responsible for the operation and safety of the aircraft"
+    },
+    {
+      "acronym": "RID",
+      "definition": "Remote Identification - System broadcasting drone identification and position information"
+    },
+    {
+      "acronym": "RPIC",
+      "definition": "Remote Pilot in Command - Pilot responsible for safely operating a remotely piloted aircraft"
+    },
+    {
+      "acronym": "RTH",
+      "definition": "Return to Home - Automated function that flies the drone back to its take-off point"
+    },
+    {
+      "acronym": "SOP",
+      "definition": "Standard Operating Procedure - Documented process for conducting operations safely and consistently"
+    },
+    {
+      "acronym": "TAF",
+      "definition": "Terminal Aerodrome Forecast - Weather forecast for a specific airport or area"
+    },
+    {
+      "acronym": "TEM",
+      "definition": "Threat and Error Management - Safety framework for identifying and managing operational risks"
+    },
+    {
+      "acronym": "TOLA",
+      "definition": "Take-Off and Landing Area - Designated safe area for aircraft operations"
+    },
+    {
+      "acronym": "UAS",
+      "definition": "Unmanned Aircraft System - Complete system including the drone, control station, and data links"
+    },
+    {
+      "acronym": "UAV",
+      "definition": "Unmanned Aerial Vehicle - The aircraft component of a UAS (drone)"
+    },
+    {
+      "acronym": "UTC",
+      "definition": "Coordinated Universal Time - Standard time reference used in aviation worldwide"
+    },
+    {
+      "acronym": "VLOS",
+      "definition": "Visual Line of Sight - Operating a drone while maintaining direct visual contact with it"
+    },
+    {
+      "acronym": "VO",
+      "definition": "Visual Observer - Person assisting the pilot by maintaining visual contact with the drone"
+    },
+    {
+      "acronym": "VRS",
+      "definition": "Vortex Ring State - Dangerous aerodynamic condition where aircraft descends into its own downwash"
+    },
+    {
+      "acronym": "WCAG",
+      "definition": "Web Content Accessibility Guidelines - Standards for making digital content accessible to people with disabilities"
+    }
+  ]
+}
+

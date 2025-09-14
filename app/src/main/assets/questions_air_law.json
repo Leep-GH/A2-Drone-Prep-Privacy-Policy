@@ -1,0 +1,704 @@
+[
+  {
+    "id": "al_001",
+    "topic": "Air Law",
+    "stem": "You are flying a 1.2kg 'legacy' drone in the A2 Open Category. What is the absolute minimum horizontal separation distance you must maintain from uninvolved people?",
+    "options": [
+      "30 metres",
+      "50 metres",
+      "150 metres",
+      "5 metres, if in a low-speed mode"
+    ],
+    "correctIndex": 1,
+    "explanation": "For 'legacy' drones between 500g and 2kg, the A2 transitional provisions (valid until 1st Jan 2026) require a 50m horizontal separation from uninvolved people. The 30m/5m rule applies only to C2 class aircraft.",
+    "tip": "Always identify if your drone is 'legacy' or C-classed before flight, as the separation rules are fundamentally different."
+  },
+  {
+    "id": "al_002",
+    "topic": "Air Law",
+    "stem": "If your drone has a camera, regardless of its weight, which registration ID must be displayed on the aircraft?",
+    "options": [
+      "Flyer ID",
+      "Operator ID",
+      "Both Flyer ID and Operator ID",
+      "The drone's serial number is sufficient"
+    ],
+    "correctIndex": 1,
+    "explanation": "The person or entity responsible for the drone must register for an Operator ID, which must be clearly labelled on every aircraft they are responsible for if it has a camera or is over 250g.",
+    "tip": "The Flyer ID is for the pilot's competency, the Operator ID is for the aircraft's accountability. Remember: Operator on the aircraft, Flyer in your wallet."
+  },
+  {
+    "id": "al_003",
+    "topic": "Air Law",
+    "stem": "What does the legal principle of 'VLOS' (Visual Line of Sight) require of the remote pilot?",
+    "options": [
+      "The ability to see the drone's video feed on the controller screen.",
+      "Keeping the drone within a 500m radius at all times.",
+      "Maintaining direct, unaided visual contact with the drone to monitor its flight path and surroundings.",
+      "Using binoculars or a spotter to keep the drone in sight."
+    ],
+    "correctIndex": 2,
+    "explanation": "VLOS means you can see the drone with your own eyes, without aid, well enough to avoid collisions. The video feed (FPV) does not count as VLOS.",
+    "tip": "A good rule of thumb: if you can't tell which way your drone is pointing just by looking at it, you are likely at the edge of your VLOS."
+  },
+  {
+    "id": "al_004",
+    "topic": "Air Law",
+    "stem": "You hold an A2 CofC and are flying a C2 class drone. What is the minimum horizontal distance you can fly from uninvolved people if the drone's low-speed mode is engaged?",
+    "options": [
+      "50 metres",
+      "30 metres",
+      "5 metres",
+      "No separation is required"
+    ],
+    "correctIndex": 2,
+    "explanation": "The A2 rules for C2 class drones allow a reduction in separation distance from 30m down to 5m if the certified low-speed mode is active and the situation is deemed safe.",
+    "tip": "This reduction is a privilege for specific aircraft and situations. The standard 30m rule should be your default planning distance."
+  },
+  {
+    "id": "al_005",
+    "topic": "Air Law",
+    "stem": "What is the maximum legal flight altitude for a drone in the Open Category in the UK?",
+    "options": [
+      "500 feet / 150 metres",
+      "400 feet / 120 metres",
+      "1000 feet / 300 metres",
+      "There is no altitude limit"
+    ],
+    "correctIndex": 1,
+    "explanation": "The maximum altitude for all Open Category flights is 120 metres (approximately 400 feet) from the closest point on the earth's surface.",
+    "tip": "If you fly up the side of a 100m hill, you can only fly 20m above the summit to remain within the 120m 'bubble' above the surface."
+  },
+  {
+    "id": "al_006",
+    "topic": "Air Law",
+    "stem": "Is it legal to fly your drone over a crowd of people (e.g., at a music festival) in the Open Category?",
+    "options": [
+      "Yes, if you have an A2 CofC.",
+      "Yes, if your drone weighs less than 250g.",
+      "No, it is never legal to fly over a crowd of people in the Open Category.",
+      "Yes, if you have permission from the event organiser."
+    ],
+    "correctIndex": 2,
+    "explanation": "Flying over an assembly or crowd of people is strictly prohibited in all subcategories of the Open Category. Such an operation would require authorisation in the Specific Category.",
+    "tip": "The CAA defines a crowd as a gathering of people who cannot quickly move out of the way. Busy parks or beaches can be considered crowds."
+  },
+  {
+    "id": "al_007",
+    "topic": "Air Law",
+    "stem": "What is the difference between the 'Remote Pilot' and the 'UAS Operator'?",
+    "options": [
+      "They are the same person.",
+      "The Remote Pilot flies the drone; the UAS Operator is responsible for the drone and ensuring it is maintained and insured.",
+      "The Remote Pilot is the trainee; the UAS Operator is the instructor.",
+      "The UAS Operator is only relevant for commercial flights."
+    ],
+    "correctIndex": 1,
+    "explanation": "The roles are distinct. The Operator is the person or entity who manages the drone(s) (like a fleet manager). The Pilot is the person at the controls. One person can be both, but they are two separate legal responsibilities.",
+    "tip": "If you own your drone and fly it yourself, you are legally both the Operator and the Pilot."
+  },
+  {
+    "id": "al_008",
+    "topic": "Air Law",
+    "stem": "You are flying a 249g drone in a park. According to the rules of the A1 subcategory, what must you avoid?",
+    "options": [
+      "Flying over residential gardens.",
+      "Flying higher than 30 metres.",
+      "Intentionally flying over crowds of people.",
+      "Taking off from public land."
+    ],
+    "correctIndex": 2,
+    "explanation": "Even for sub-250g drones in the A1 category, it is prohibited to fly over a crowd or 'assembly of people'. While you can fly over uninvolved people, a crowd is considered a higher risk.",
+    "tip": "Just because it's light doesn't mean it's risk-free. A falling 249g drone can still cause injury."
+  },
+  {
+    "id": "al_009",
+    "topic": "Air Law",
+    "stem": "What is a Flight Restriction Zone (FRZ)?",
+    "options": [
+      "An area where only commercial drone flights are allowed.",
+      "A circular zone of airspace around an aerodrome to protect air traffic.",
+      "An area where drone flying is recommended.",
+      "A zone where you must fly below 50 feet."
+    ],
+    "correctIndex": 1,
+    "explanation": "An FRZ is a legally defined area around an airport or airfield to protect manned aircraft during take-off and landing. Flying within an FRZ is illegal without explicit permission from Air Traffic Control.",
+    "tip": "Always check a reliable drone map for FRZs before every flight. They are not always obvious from the ground."
+  },
+  {
+    "id": "al_010",
+    "topic": "Air Law",
+    "stem": "What type of insurance is legally required to fly a drone, including for recreational use?",
+    "options": [
+      "No insurance is required for recreational flying.",
+      "Third-party liability insurance.",
+      "Theft and damage insurance for the drone itself.",
+      "Personal accident insurance for the pilot."
+    ],
+    "correctIndex": 1,
+    "explanation": "If you are flying a drone that is not a toy, you must have third-party liability insurance compliant with regulation EC785/2004. This covers you for injury or damage to other people or property.",
+    "tip": "Many household insurance policies do not cover drone use. Specialist drone insurance is widely available and essential."
+  },
+  {
+    "id": "al_011",
+    "topic": "Air Law",
+    "stem": "The 'A3 - Far from People' subcategory requires you to fly at least 150m horizontally from what?",
+    "options": [
+      "Any single uninvolved person.",
+      "Roads and railways.",
+      "Residential, commercial, industrial, and recreational areas.",
+      "Your take-off point."
+    ],
+    "correctIndex": 2,
+    "explanation": "The A3 category is for higher-risk operations that must be kept well away from built-up areas. The 150m rule ensures a large buffer from places where people are likely to be present.",
+    "tip": "Think of A3 as the 'empty fields' category."
+  },
+  {
+    "id": "al_012",
+    "topic": "Air Law",
+    "stem": "What is the validity period of an A2 Certificate of Competency?",
+    "options": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "It does not expire"
+    ],
+    "correctIndex": 2,
+    "explanation": "The A2 CofC qualification is valid for a period of five years from the date of issue, after which the pilot will need to undertake a renewal process.",
+    "tip": "Set a calendar reminder for your expiry date well in advance."
+  },
+  {
+    "id": "al_013",
+    "topic": "Air Law",
+    "stem": "If you are using a visual observer (VO) to help you scan the airspace, who is ultimately responsible for the safety of the flight?",
+    "options": [
+      "The visual observer.",
+      "The remote pilot in command.",
+      "The responsibility is shared equally.",
+      "The UAS Operator."
+    ],
+    "correctIndex": 1,
+    "explanation": "The Remote Pilot in Command (PIC) is always the final authority and holds ultimate responsibility for the safe conduct of the flight, regardless of who else is in the crew.",
+    "tip": "A VO is an aid to your situational awareness, not a replacement for your command responsibility."
+  },
+  {
+    "id": "al_014",
+    "topic": "Air Law",
+    "stem": "What does the term 'uninvolved person' mean in the context of drone regulations?",
+    "options": [
+      "Anyone who is not the remote pilot.",
+      "A person who is not participating in the UAS operation and has not been briefed on the risks.",
+      "Anyone who is indoors.",
+      "People who have given their consent to be filmed."
+    ],
+    "correctIndex": 1,
+    "explanation": "An 'uninvolved person' is anyone not directly involved in the operation. To become an 'involved person', they must understand the risks, be briefed on safety procedures, and explicitly agree to participate.",
+    "tip": "Your client can be an 'involved person' if you give them a proper safety briefing."
+  },
+  {
+    "id": "al_015",
+    "topic": "Air Law",
+    "stem": "You are flying a C1 class drone (weighing 800g). In which subcategory can you operate?",
+    "options": [
+      "A2 only",
+      "A3 only",
+      "A1 (and A3)",
+      "A1, A2, and A3"
+    ],
+    "correctIndex": 2,
+    "explanation": "C1 class drones are specifically designed for operation in the A1 subcategory. Any drone that can fly in a more permissive category (like A1) can also be flown in a more restrictive one (like A3).",
+    "tip": "Remember the hierarchy: A1 is most permissive, A3 is most restrictive."
+  },
+  {
+    "id": "al_016",
+    "topic": "Air Law",
+    "stem": "What is an 'Article 16 Operational Authorisation'?",
+    "options": [
+      "A special permission to fly at night.",
+      "An authorisation that allows members of a recognised model aircraft association to fly under a different set of rules.",
+      "The standard A2 CofC certificate.",
+      "A permit to fly in restricted airspace."
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 16 allows the CAA to grant authorisations to bodies like the BMFA or FPV UK, whose members can then fly under a well-established and safety-vetted set of club rules instead of the standard Open Category regulations.",
+    "tip": "This is most relevant to the model aircraft community but it's good practice to know it exists."
+  },
+  {
+    "id": "al_017",
+    "topic": "Air Law",
+    "stem": "When capturing images or video of people, what UK regulation must you be mindful of?",
+    "options": [
+      "The Civil Aviation Act",
+      "The Air Navigation Order",
+      "The General Data Protection Regulation (GDPR)",
+      "The Highway Code"
+    ],
+    "correctIndex": 2,
+    "explanation": "If the images you capture can identify an individual, you are processing personal data and must therefore comply with GDPR. This includes having a lawful basis for processing and respecting people's privacy.",
+    "tip": "Your responsibility as a pilot extends beyond just aviation safety; you must also be a responsible data controller."
+  },
+  {
+    "id": "al_018",
+    "topic": "Air Law",
+    "stem": "Which body is responsible for regulating all civil aviation, including drones, in the United Kingdom?",
+    "options": [
+      "The National Air Traffic Services (NATS)",
+      "The European Union Aviation Safety Agency (EASA)",
+      "The Civil Aviation Authority (CAA)",
+      "The Department for Transport (DfT)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The CAA is the UK's independent aviation regulator, with responsibility for all aspects of aviation safety, security, and consumer rights.",
+    "tip": "The CAA website is the definitive source for all UK drone regulations."
+  },
+  {
+    "id": "al_019",
+    "topic": "Air Law",
+    "stem": "You have an accident that results in a serious injury to a member of the public. This is legally defined as a 'reportable occurrence'. Who must you report it to?",
+    "options": [
+      "The drone manufacturer.",
+      "Your insurance company only.",
+      "The CAA and the Air Accidents Investigation Branch (AAIB).",
+      "The local news."
+    ],
+    "correctIndex": 2,
+    "explanation": "Any accident involving a drone that results in a serious or fatal injury must be reported to the AAIB, the CAA, and the police. This is a mandatory legal requirement.",
+    "tip": "Understand the criteria for a 'reportable occurrence'. Not every minor incident needs to be reported, but serious ones do."
+  },
+  {
+    "id": "al_020",
+    "topic": "Air Law",
+    "stem": "You are flying a 450g 'legacy' drone. To fly in the A1 Transitional subcategory, what qualification must you hold?",
+    "options": [
+      "No qualification is needed.",
+      "A Flyer ID only.",
+      "An A2 Certificate of Competency (A2 CofC).",
+      "A General VLOS Certificate (GVC)."
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a specific and important rule. For 'legacy' drones between 250g and 500g, the pilot MUST hold a valid A2 CofC to operate in the A1 Transitional subcategory (flying in built-up areas but not intentionally over people).",
+    "tip": "This is one of the key benefits of the A2 CofC for pilots of drones like the DJI Mini 3/4 with the larger battery."
+  },
+  {
+    "id": "al_021",
+    "topic": "Air Law",
+    "stem": "What is the primary purpose of the drone C-class markings (C0, C1, C2 etc.)?",
+    "options": [
+      "To indicate the drone's colour.",
+      "To show which country the drone was made in.",
+      "To provide a clear, standardised indication of the drone's safety features and capabilities, determining which subcategory it can be used in.",
+      "To act as a quality score for the drone's camera."
+    ],
+    "correctIndex": 2,
+    "explanation": "The C-class system is a product standard. It ensures that drones sold for use in a specific category meet certain safety and performance requirements (e.g., a C2 drone must have a remote ID and a low-speed mode).",
+    "tip": "The C-class of your drone will become the primary factor in determining how and where you can fly it."
+  },
+  {
+    "id": "al_022",
+    "topic": "Air Law",
+    "stem": "Can you fly a drone that weighs 2.5kg in the A2 Open Category?",
+    "options": [
+      "Yes, if you have an A2 CofC.",
+      "No, the maximum take-off mass for a drone in the A2 category is 2kg (for legacy) or 4kg (for C2).",
+      "Yes, if it is a C2 class drone.",
+      "No, the maximum take-off mass for a drone in the A2 subcategory is 2kg."
+    ],
+    "correctIndex": 3,
+    "explanation": "The A2 subcategory is limited to legacy drones with an MTOM of less than 2kg, or C2 class drones with an MTOM of less than 4kg. A 2.5kg legacy drone is too heavy for A2 and must be flown in the A3 subcategory.",
+    "tip": "Weight is a hard limit. Always know your drone's precise MTOM."
+  },
+  {
+    "id": "al_023",
+    "topic": "Air Law",
+    "stem": "What is the validity period of a CAA Flyer ID?",
+    "options": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "It does not expire"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Flyer ID, which is obtained by passing the online DMARES test, is valid for 5 years.",
+    "tip": "The Operator ID, on the other hand, must be renewed annually."
+  },
+  {
+    "id": "al_024",
+    "topic": "Air Law",
+    "stem": "Your drone's geo-awareness system shows a red 'no-fly' zone. What does this indicate?",
+    "options": [
+      "It is a recommendation to land, but you can continue if you are careful.",
+      "It indicates the presence of restricted airspace, such as an airport FRZ or a prison.",
+      "It means the GPS signal is weak in that area.",
+      "It is an area with a high risk of bird strikes."
+    ],
+    "correctIndex": 1,
+    "explanation": "Geo-awareness is a safety feature that uses the drone's GPS position to inform the pilot of airspace restrictions. A red zone indicates a high-risk or prohibited area where flight is not permitted without authorisation.",
+    "tip": "Do not rely solely on your drone's built-in map. Always consult an official, up-to-date airspace map during your pre-flight planning."
+  },
+  {
+    "id": "al_025",
+    "topic": "Air Law",
+    "stem": "When must you have your Flyer ID and Operator ID?",
+    "options": [
+      "Only for flights over 100m.",
+      "Only when flying for commercial purposes.",
+      "Before you fly a drone or model aircraft that requires them.",
+      "Within 30 days of purchasing your drone."
+    ],
+    "correctIndex": 2,
+    "explanation": "You must be in possession of a valid Flyer ID (if required for the flight) and have a valid Operator ID displayed on the aircraft (if required) before any flight takes place. It is illegal to fly without them.",
+    "tip": "This is the very first step for any new drone pilot. Get registered and pass the test before you fly."
+  },
+  {
+    "id": "al_026",
+    "topic": "Air Law",
+    "stem": "Which of these operations would most likely require an Operational Authorisation from the CAA in the Specific Category?",
+    "options": [
+      "Flying a 1kg drone 60m away from people in a park.",
+      "Flying a 249g drone in your garden.",
+      "Flying a drone beyond the pilot's visual line of sight (BVLOS).",
+      "Taking photos of your own house for personal use."
+    ],
+    "correctIndex": 2,
+    "explanation": "Any flight that cannot be completed within the rules of the Open Category falls into the Specific Category. BVLOS operations are a classic example of a higher-risk flight that requires a specific risk assessment and authorisation from the CAA.",
+    "tip": "The A2 CofC is a qualification for the Open Category only."
+  },
+  {
+    "id": "al_027",
+    "topic": "Air Law",
+    "stem": "What is the minimum age to register as a UAS Operator in the UK?",
+    "options": [
+      "There is no minimum age.",
+      "13",
+      "16",
+      "18"
+    ],
+    "correctIndex": 3,
+    "explanation": "To register as a UAS Operator and be assigned an Operator ID, a person must be 18 years of age or older. A parent or guardian must register on behalf of a child under 18.",
+    "tip": "There is no minimum age to get a Flyer ID, but a parent must supervise the test for under-13s."
+  },
+  {
+    "id": "al_028",
+    "topic": "Air Law",
+    "stem": "If you are flying in the A3 subcategory, what is the rule regarding uninvolved people?",
+    "options": [
+      "You must stay at least 50m away from them.",
+      "You must not fly over them.",
+      "You must ensure that no uninvolved people are present within the area of operation.",
+      "You must get their permission before flying."
+    ],
+    "correctIndex": 2,
+    "explanation": "The A3 category is defined as being 'far from people'. This means the pilot is responsible for ensuring the entire operational area is clear of any uninvolved persons before and during the flight.",
+    "tip": "This rule, combined with the 150m rule from built-up areas, makes A3 the most restrictive category for operations."
+  },
+  {
+    "id": "al_029",
+    "topic": "Air Law",
+    "stem": "You are filming a private event on private land. Who is considered an 'involved person'?",
+    "options": [
+      "Anyone present at the event.",
+      "Only the person who hired you.",
+      "Only those who have been briefed on the drone operation and its risks, and have consented to be part of it.",
+      "Anyone who signs a disclaimer form."
+    ],
+    "correctIndex": 2,
+    "explanation": "Simply being at an event does not make someone an involved person. To be 'involved', each person must be made aware of the drone flight, understand the potential risks, know the safety procedures, and explicitly agree to take part.",
+    "tip": "Briefing a large group of people to make them all 'involved' is often impractical. It's usually easier to treat them as 'uninvolved' and maintain the required separation."
+  },
+  {
+    "id": "al_030",
+    "topic": "Air Law",
+    "stem": "Can you use a drone with a C3 class marking in the A2 subcategory?",
+    "options": [
+      "Yes, if it weighs less than 4kg.",
+      "No, C3 class drones are designed for use in the A3 subcategory only.",
+      "Yes, if you hold an A2 CofC.",
+      "Yes, but you must stay 50m away from people."
+    ],
+    "correctIndex": 1,
+    "explanation": "The C-class system is prescriptive. A C3 drone is built to the standards required for the A3 'far from people' category and lacks the specific safety features required for a C2 drone to operate 'close to people'.",
+    "tip": "Match the C-class to the subcategory: C0/C1 for A1, C2 for A2, C3/C4 for A3."
+  },
+  {
+    "id": "al_031",
+    "topic": "Air Law",
+    "stem": "What is the legal status of the 'Drone and Model Aircraft Code'?",
+    "options": [
+      "It is a set of voluntary guidelines.",
+      "It contains advisory material but is not legally binding.",
+      "It provides a simplified explanation of the law (the Air Navigation Order) and following it is a way to ensure legal compliance.",
+      "It is only for hobbyist pilots."
+    ],
+    "correctIndex": 2,
+    "explanation": "The Drone Code is not the law itself, but it provides guidance on how to comply with the Air Navigation Order. Following the Code is considered to be complying with the law.",
+    "tip": "The DMARES test for the Flyer ID is based entirely on the contents of the Drone Code."
+  },
+  {
+    "id": "al_032",
+    "topic": "Air Law",
+    "stem": "You are flying near a tall building. Can you legally fly above 120m from the ground?",
+    "options": [
+      "No, the 120m limit is absolute.",
+      "Yes, you can fly up to 15m above the height of the building, provided you stay within 50m horizontally of it.",
+      "Yes, you can fly as high as you want as long as you are close to the building.",
+      "No, you must stay at least 150m away from tall buildings."
+    ],
+    "correctIndex": 1,
+    "explanation": "There is a specific exemption that allows you to fly above the 120m limit if you are inspecting a tall obstacle (over 105m high). You can fly up to 15m above the obstacle, but must remain within 50m horizontally of it.",
+    "tip": "This is a specific rule for inspection work and requires the permission of the person in control of the obstacle."
+  },
+  {
+    "id": "al_033",
+    "topic": "Air Law",
+    "stem": "Your Operator ID must be visible on your drone. What is the other requirement for the label?",
+    "options": [
+      "It must be fireproof.",
+      "It must be clearly readable, and you must also have it on a separate card if it's in a battery compartment.",
+      "It must be registered with the police.",
+      "It must be on the propellers."
+    ],
+    "correctIndex": 1,
+    "explanation": "The Operator ID must be clearly visible on the main body of the aircraft. If it is placed inside a compartment (like a battery bay), you must also carry a separate card with the ID on it.",
+    "tip": "A simple printed label from a label maker is the most common and effective way to comply with this rule."
+  },
+  {
+    "id": "al_034",
+    "topic": "Air Law",
+    "stem": "What does the term 'congested area' generally refer to in UK aviation law?",
+    "options": [
+      "Any area with more than 10 people.",
+      "An area substantially used for residential, commercial, industrial or recreational purposes.",
+      "A field with livestock in it.",
+      "Any location within a city."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is the legal definition. It essentially means 'a built-up area'. Flying in these areas was heavily restricted before the new Open Category rules came into effect.",
+    "tip": "The A1 and A2 categories give you the privilege of flying within congested areas, provided you maintain the correct separation from uninvolved people."
+  },
+  {
+    "id": "al_035",
+    "topic": "Air Law",
+    "stem": "You want to fly your drone from a boat in the sea. What regulations apply?",
+    "options": [
+      "No regulations apply as you are over water.",
+      "Maritime law applies instead of aviation law.",
+      "All standard CAA regulations (VLOS, altitude limits, etc.) still apply.",
+      "You must get permission from the coastguard."
+    ],
+    "correctIndex": 2,
+    "explanation": "The Air Navigation Order applies to the entire UK airspace, including the airspace over its territorial waters. All the standard rules must still be followed.",
+    "tip": "Be extra careful of your take-off point (RTH location) moving, and the corrosive effects of saltwater."
+  },
+  {
+    "id": "al_036",
+    "topic": "Air Law",
+    "stem": "What is the primary purpose of a 'NOTAM' (Notice to Air Missions)?",
+    "options": [
+      "To provide a weather forecast.",
+      "To inform pilots of temporary hazards or changes in the airspace, such as airshows, crane operations, or closed runways.",
+      "To file a flight plan for a drone.",
+      "To report a safety incident to the CAA."
+    ],
+    "correctIndex": 1,
+    "explanation": "NOTAMs are time-critical notices that provide information on temporary hazards. Checking NOTAMs for your operating area is a key part of professional pre-flight planning.",
+    "tip": "Several drone safety apps can display NOTAMs on a map, making them easy to check."
+  },
+  {
+    "id": "al_037",
+    "topic": "Air Law",
+    "stem": "Is it legal to drop an article from your drone?",
+    "options": [
+      "Yes, at any time.",
+      "No, it is never legal.",
+      "Only if the article is very light.",
+      "Only if you have taken all reasonable precautions to avoid harm to people or property."
+    ],
+    "correctIndex": 3,
+    "explanation": "The law states that you must not cause or permit any article or animal to be dropped from a drone so as to endanger persons or property. This means it is legal, provided it can be done completely safely.",
+    "tip": "This would require a very thorough risk assessment and is generally an activity for the Specific Category."
+  },
+  {
+    "id": "al_038",
+    "topic": "Air Law",
+    "stem": "Which of these is a key feature of a C2-class drone?",
+    "options": [
+      "It must weigh less than 250g.",
+      "It must have a certified low-speed mode and a remote ID broadcast system.",
+      "It must be painted yellow for visibility.",
+      "It cannot have a camera."
+    ],
+    "correctIndex": 1,
+    "explanation": "The C2 standard mandates specific safety features. The low-speed mode (max 3 m/s) is what allows the pilot to reduce separation to 5m, and Remote ID (or Direct Remote Identification) broadcasts the drone's position and operator number.",
+    "tip": "These built-in safety features are what justify the more permissive flight rules for C2 drones compared to 'legacy' aircraft."
+  },
+  {
+    "id": "al_039",
+    "topic": "Air Law",
+    "stem": "You are flying a 1.9kg 'legacy' drone. You do not hold an A2 CofC. In which subcategory must you operate?",
+    "options": [
+      "A1",
+      "A2",
+      "A3",
+      "You cannot fly this drone without an A2 CofC."
+    ],
+    "correctIndex": 2,
+    "explanation": "Without an A2 CofC, a drone of this weight cannot be flown in the A2 subcategory. It is too heavy for A1. Therefore, the only remaining legal option in the Open Category is the A3 'far from people' subcategory.",
+    "tip": "This illustrates the main benefit of the A2 CofC: it grants you the privilege of flying in the A2 subcategory instead of being restricted to A3."
+  },
+  {
+    "id": "al_040",
+    "topic": "Air Law",
+    "stem": "What is the legal definition of 'endangering an aircraft'?",
+    "options": [
+      "Flying your drone in a way that distracts a pilot of a manned aircraft.",
+      "Recklessly or negligently acting in a manner likely to endanger an aircraft, or any person in an aircraft.",
+      "Flying within 50 metres of any manned aircraft.",
+      "Flying a drone without insurance."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a serious offence under the Air Navigation Order. It is a broad definition that covers any reckless action that could pose a danger to manned aviation. It can carry a prison sentence.",
+    "tip": "Your primary responsibility is to be aware of and stay well clear of all manned aircraft."
+  },
+  {
+    "id": "al_041",
+    "topic": "Air Law",
+    "stem": "Can you be both the Remote Pilot and the Visual Observer at the same time?",
+    "options": [
+      "Yes, this is standard practice.",
+      "No, the roles must be performed by two separate people.",
+      "Only if you have two controllers.",
+      "Only if the drone weighs less than 250g."
+    ],
+    "correctIndex": 1,
+    "explanation": "The purpose of a Visual Observer is to support the Remote Pilot by scanning the airspace and surroundings. A single person cannot be looking at the drone and simultaneously scanning the wider airspace effectively. They are distinct roles requiring two people.",
+    "tip": "A good crew consists of a pilot focused on the aircraft and a VO focused on everything else."
+  },
+  {
+    "id": "al_042",
+    "topic": "Air Law",
+    "stem": "Local council byelaws can prohibit drone take-off and landing from certain areas, such as parks. How do these relate to CAA regulations?",
+    "options": [
+      "CAA regulations always override local byelaws.",
+      "Byelaws are not legally enforceable.",
+      "You must comply with both CAA regulations for the airspace and any local byelaws for land use.",
+      "Byelaws only apply to commercial operators."
+    ],
+    "correctIndex": 2,
+    "explanation": "The CAA regulates air law, while local councils regulate the use of the land they own. A byelaw can make it illegal to take off or land in a specific park, even if the airspace above is not restricted. You must obey both sets of rules.",
+    "tip": "Always check the local council's website for any byelaws relating to drone use before flying from public land."
+  },
+  {
+    "id": "al_043",
+    "topic": "Air Law",
+    "stem": "What is the main legal implication of a 'toy' drone?",
+    "options": [
+      "It can be flown by anyone of any age.",
+      "If it is a toy (and has no camera), it does not require an Operator ID.",
+      "It can be flown higher than 120m.",
+      "All toy drones are exempt from VLOS."
+    ],
+    "correctIndex": 1,
+    "explanation": "A drone is a 'toy' if the manufacturer has marketed it as such. Under the regulations, toy drones without a camera do not require the owner to register for an Operator ID. However, the pilot must still fly safely and responsibly.",
+    "tip": "The definition of a toy is specific. Just because a drone is small does not automatically make it a toy."
+  },
+  {
+    "id": "al_044",
+    "topic": "Air Law",
+    "stem": "Your Flyer ID proves that you have:",
+    "options": [
+      "Passed the A2 CofC theory exam.",
+      "Passed the basic online DMARES test on the Drone and Model Aircraft Code.",
+      "Registered as a UAS Operator.",
+      "Purchased valid drone insurance."
+    ],
+    "correctIndex": 1,
+    "explanation": "The Flyer ID is the certificate issued by the CAA after you have successfully passed the free online Drone and Model Aircraft Registration and Education Service (DMARES) test. It demonstrates you have basic knowledge of UK drone rules.",
+    "tip": "The Flyer ID is the first step for all pilots. The A2 CofC is a separate, more advanced qualification."
+  },
+  {
+    "id": "al_045",
+    "topic": "Air Law",
+    "stem": "If you are flying under the A2 transitional provisions with a 1.5kg drone, can you fly over uninvolved people?",
+    "options": [
+      "Yes, as long as you are higher than 50m.",
+      "No, intentional overflight of uninvolved people is not permitted.",
+      "Yes, if they give you verbal consent.",
+      "Only for a brief period of time."
+    ],
+    "correctIndex": 1,
+    "explanation": "The A2 CofC allows you to fly 'close to' people, but not 'over' them. No matter your altitude, you must not intentionally fly over uninvolved persons. If it happens accidentally, it must be for the shortest time possible.",
+    "tip": "Plan your flight paths to go around people, not over them."
+  },
+  {
+    "id": "al_046",
+    "topic": "Air Law",
+    "stem": "What is a 'sterile flight deck' principle in the context of drone flying?",
+    "options": [
+      "Ensuring your controller is wiped clean before flight.",
+      "Flying without any payload attached to the drone.",
+      "Avoiding all non-essential conversations and distractions during critical phases of flight (e.g., take-off, landing).",
+      "Only flying in completely empty, sterile environments."
+    ],
+    "correctIndex": 2,
+    "explanation": "Borrowed from manned aviation, this is a safety principle where the pilot and crew refrain from any chat or activity not essential to the safe operation of the aircraft during high-workload periods, to maintain maximum focus.",
+    "tip": "Implement a sterile flight deck for the first and last minute of your flights. This is when most incidents occur."
+  },
+  {
+    "id": "al_047",
+    "topic": "Air Law",
+    "stem": "You are asked to film a property that is next to a prison. What is a key airspace consideration?",
+    "options": [
+      "You may get a better view from a higher altitude.",
+      "Prisons are often surrounded by restricted airspace, and you must check your drone map for its exact boundaries.",
+      "The residents of the property must give you permission.",
+      "You must inform the prison guards before you fly."
+    ],
+    "correctIndex": 1,
+    "explanation": "Many sensitive sites, like prisons, nuclear power stations, and military bases, are protected by specific flight restriction zones. Flying in them is illegal without permission.",
+    "tip": "Never make assumptions about airspace. Always check the map."
+  },
+  {
+    "id": "al_048",
+    "topic": "Air Law",
+    "stem": "The term 'Remote Pilot in Command' (RPIC) implies:",
+    "options": [
+      "The pilot is flying from a very long way away.",
+      "The pilot holds the ultimate responsibility and final authority for the safety of the operation.",
+      "There must be more than one person in the crew.",
+      "The pilot is flying for a commercial company."
+    ],
+    "correctIndex": 1,
+    "explanation": "The 'in Command' part is key. The RPIC is the single individual who is responsible for everything that happens during the flight, from pre-flight checks to the final landing.",
+    "tip": "Even if you are just flying for fun, when you are at the controls, you are the Remote Pilot in Command."
+  },
+  {
+    "id": "al_049",
+    "topic": "Air Law",
+    "stem": "What is the primary reason for the 'Transitional Period' for legacy drones?",
+    "options": [
+      "To allow pilots time to practice flying.",
+      "To allow the CAA to write the new laws.",
+      "To allow time for manufacturers to develop and release C-classed drones onto the market.",
+      "To give people a chance to sell their old drones."
+    ],
+    "correctIndex": 2,
+    "explanation": "When the new regulations were introduced, no C-classed drones existed. The transitional period was created to allow pilots to continue flying their existing ('legacy') drones with some privileges (like the A2 50m rule) until C-classed aircraft become widely available.",
+    "tip": "The transitional period is currently set to end on 1st January 2026."
+  },
+  {
+    "id": "al_050",
+    "topic": "Air Law",
+    "stem": "Is a risk assessment a legal requirement for flying in the Open Category?",
+    "options": [
+      "Yes, a written risk assessment must be submitted to the CAA before every flight.",
+      "No, risk assessments are not required in the Open Category.",
+      "While a formal written document is not mandated, the remote pilot is legally required to assess the risks before each flight to ensure it can be conducted safely.",
+      "Only for flights in the A2 subcategory."
+    ],
+    "correctIndex": 2,
+    "explanation": "The law (ANO Article 241) states that the remote pilot must not fly unless they have reasonably satisfied themselves that the flight can be safely made. This is, in effect, a requirement to conduct a risk assessment, even if you don't have to write it down.",
+    "tip": "Getting into the habit of performing a dynamic risk assessment before every take-off is the mark of a safe and professional pilot."
+  }
+]
+
+

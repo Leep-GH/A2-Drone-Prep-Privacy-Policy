@@ -1,0 +1,704 @@
+[
+  {
+    "id": "hp_001",
+    "topic": "Human Performance",
+    "stem": "What is the primary danger of pilot fatigue?",
+    "options": [
+      "It decreases the drone's battery life.",
+      "It can lead to a degradation in performance, poor decision-making, and slower reaction times.",
+      "It can cause the controller to lose its connection.",
+      "It only affects pilots on long, multi-hour flights."
+    ],
+    "correctIndex": 1,
+    "explanation": "Fatigue slows reaction times, reduces attention, impairs judgment, and degrades overall cognitive performance, which can lead directly to mistakes and accidents.",
+    "tip": "Fatigue can be cumulative. A few nights of poor sleep can affect your performance even on a short flight. Ensure you are well-rested before any operation."
+  },
+  {
+    "id": "hp_002",
+    "topic": "Human Performance",
+    "stem": "A client is pressuring you to fly in weather conditions that are at the limit of your drone's capability. This is an example of what kind of human factor?",
+    "options": [
+      "A technical limitation.",
+      "Commercial pressure.",
+      "Situational awareness.",
+      "Complacency."
+    ],
+    "correctIndex": 1,
+    "explanation": "External pressure from a client to fly against your better judgment is a classic human performance factor that can lead to poor, risk-taking decisions.",
+    "tip": "The pilot in command is the final authority. It is your responsibility to say 'no' if conditions are unsafe, regardless of client demands."
+  },
+  {
+    "id": "hp_003",
+    "topic": "Human Performance",
+    "stem": "You complete a flight successfully, but later realise you forgot one item on your pre-flight checklist. This is a potential sign of what hazardous attitude?",
+    "options": [
+      "Anti-authority",
+      "Impulsivity",
+      "Resignation",
+      "Complacency"
+    ],
+    "correctIndex": 3,
+    "explanation": "Becoming overly comfortable and familiar with procedures can lead to cutting corners or forgetting steps, which is a classic sign of complacency. It is one of the biggest risks for experienced pilots.",
+    "tip": "Actively use your checklist for every single flight, ticking off each item, to combat the risk of complacency."
+  },
+  {
+    "id": "hp_004",
+    "topic": "Human Performance",
+    "stem": "What does the 'IMSAFE' checklist help a pilot to assess?",
+    "options": [
+      "The airworthiness of the drone.",
+      "The weather conditions on site.",
+      "Their personal fitness to fly.",
+      "The insurance status of the operation."
+    ],
+    "correctIndex": 2,
+    "explanation": "IMSAFE is a mnemonic used to perform a personal health check before a flight. It stands for Illness, Medication, Stress, Alcohol, Fatigue, and Emotion/Eating.",
+    "tip": "Run through the IMSAFE checklist honestly before every flight. If any one of the items is a concern, you should not fly."
+  },
+  {
+    "id": "hp_005",
+    "topic": "Human Performance",
+    "stem": "How can taking over-the-counter cold and flu medication affect a pilot's performance?",
+    "options": [
+      "It can improve reaction times.",
+      "It has no effect on piloting skills.",
+      "Many such medications can cause drowsiness and impair cognitive function.",
+      "It only affects night flying."
+    ],
+    "correctIndex": 2,
+    "explanation": "Many common medications, including antihistamines found in cold remedies, can have sedative effects that significantly degrade a pilot's alertness, judgment, and reaction times.",
+    "tip": "Always read the label on any medication and consult a doctor or pharmacist about its effects on your ability to operate machinery."
+  },
+  {
+    "id": "hp_006",
+    "topic": "Human Performance",
+    "stem": "What is 'situational awareness' for a remote pilot?",
+    "options": [
+      "Knowing the drone's battery percentage.",
+      "Having a complete and accurate understanding of the drone's status, its location, and the surrounding operational environment.",
+      "Being able to fly the drone without looking at the screen.",
+      "Knowing all the CAA regulations from memory."
+    ],
+    "correctIndex": 1,
+    "explanation": "Situational awareness is about having a continuous mental picture of your operation, including the drone's state, your position, other air users, people on the ground, and changing weather.",
+    "tip": "A good 'scan' is key: check your screen, check your aircraft, check your surroundings, repeat."
+  },
+  {
+    "id": "hp_007",
+    "topic": "Human Performance",
+    "stem": "The hazardous attitude of 'invulnerability' is best described by which thought process?",
+    "options": [
+      "'The rules don't apply to me.'",
+      "'It won't happen to me.'",
+      "'I have to do something, now!'",
+      "'What's the use?'"
+    ],
+    "correctIndex": 1,
+    "explanation": "A feeling of invulnerability leads a pilot to believe that accidents only happen to other people, which can result in taking unnecessary risks.",
+    "tip": "The antidote to invulnerability is to remember that you are just as susceptible to accidents as anyone else and to follow procedures accordingly."
+  },
+  {
+    "id": "hp_008",
+    "topic": "Human Performance",
+    "stem": "What is the CAA's recommended 'bottle to throttle' time, i.e., the minimum period between consuming any alcohol and flying a drone?",
+    "options": [
+      "2 hours",
+      "24 hours",
+      "8 hours",
+      "As long as you are below the legal driving limit."
+    ],
+    "correctIndex": 2,
+    "explanation": "The CAA regulations are very strict. The minimum period is 8 hours between the last alcoholic drink and taking control of an aircraft. For commercial operations, many operators have a zero-tolerance policy.",
+    "tip": "The safest policy is to avoid alcohol entirely for at least 24 hours before any flight."
+  },
+  {
+    "id": "hp_009",
+    "topic": "Human Performance",
+    "stem": "What is 'threat and error management' (TEM)?",
+    "options": [
+      "A method for managing aggressive clients.",
+      "A safety framework where pilots actively look for potential threats, anticipate potential errors, and manage them before they become critical.",
+      "A software system that prevents the drone from making errors.",
+      "A post-flight analysis of what went wrong."
+    ],
+    "correctIndex": 1,
+    "explanation": "TEM is a proactive safety mindset. It's about thinking ahead: 'What could go wrong here?' (threat), 'What mistake could I make?' (error), and 'How can I prevent that or fix it if it happens?' (management).",
+    "tip": "A simple example of TEM: Threat = Gusty wind. Error = Losing control near a tree. Management = Flying further away from the tree."
+  },
+  {
+    "id": "hp_010",
+    "topic": "Human Performance",
+    "stem": "How can high levels of stress affect a pilot's performance?",
+    "options": [
+      "It can increase focus and improve performance.",
+      "It has no effect on experienced pilots.",
+      "It can cause 'tunnelling' of attention, where a pilot focuses on one problem and misses other important cues.",
+      "It improves communication with the crew."
+    ],
+    "correctIndex": 2,
+    "explanation": "High stress levels narrow your perceptual field. A stressed pilot might fixate on a battery warning and fail to notice another aircraft approaching or the drone drifting towards an obstacle.",
+    "tip": "If you feel your stress levels rising, take a breath, gain some altitude for safety, and stabilise the situation before proceeding."
+  },
+  {
+    "id": "hp_011",
+    "topic": "Human Performance",
+    "stem": "The hazardous attitude of 'macho' is characterised by:",
+    "options": [
+      "A pilot who always tries to prove they are better than others by taking risks.",
+      "A pilot who is very confident in their abilities.",
+      "A pilot who follows all the rules perfectly.",
+      "A pilot who gives up easily when faced with a problem."
+    ],
+    "correctIndex": 0,
+    "explanation": "The 'macho' hazardous attitude is about ego and trying to impress others. It often leads to pilots attempting manoeuvres that are beyond their or their aircraft's capabilities.",
+    "tip": "The antidote is to recognise that safe, professional flying is far more impressive than reckless showboating."
+  },
+  {
+    "id": "hp_012",
+    "topic": "Human Performance",
+    "stem": "What is a 'confirmation bias'?",
+    "options": [
+      "Confirming with your client what they want you to film.",
+      "The tendency to trust information that confirms your pre-existing beliefs or decisions, while ignoring contradictory information.",
+      "Checking your flight plan with a visual observer.",
+      "A bias towards flying only in confirmed good weather."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a dangerous cognitive bias. For example, if you've decided a flight is safe, you might pay more attention to the parts of the weather forecast that look good, and dismiss the parts that warn of high gusts.",
+    "tip": "Actively challenge your own assumptions. Play devil's advocate and ask yourself, 'What information might I be ignoring here?'"
+  },
+  {
+    "id": "hp_013",
+    "topic": "Human Performance",
+    "stem": "Why is it important to stay well-hydrated and have adequate nutrition before and during a drone operation?",
+    "options": [
+      "It has no real impact on performance.",
+      "Dehydration and low blood sugar can significantly impair concentration, decision-making, and reaction times.",
+      "It is a legal requirement from the CAA.",
+      "It helps the drone's batteries last longer."
+    ],
+    "correctIndex": 1,
+    "explanation": "Your brain needs fuel and water to function effectively. Even mild dehydration or hunger can lead to symptoms like headaches, dizziness, and a noticeable drop in cognitive performance, all of which are dangerous for a pilot.",
+    "tip": "Always have a bottle of water and a snack in your flight kit, especially for longer jobs."
+  },
+  {
+    "id": "hp_014",
+    "topic": "Human Performance",
+    "stem": "What is the 'startle effect'?",
+    "options": [
+      "The feeling of excitement at the start of a flight.",
+      "An automatic, involuntary reflex response to a sudden, unexpected event, which can temporarily impair rational thought.",
+      "The effect of the motors starting up on nearby wildlife.",
+      "A deliberate technique to get the attention of your visual observer."
+    ],
+    "correctIndex": 1,
+    "explanation": "A sudden loud bang, a critical warning on screen, or a bird strike can trigger a 'startle' response. This can cause a pilot to freeze or make an instinctive, incorrect control input before their rational brain takes over.",
+    "tip": "Training for emergencies (e.g., in a simulator) can help reduce the impact of the startle effect by making your response to a problem more automatic and correct."
+  },
+  {
+    "id": "hp_015",
+    "topic": "Human Performance",
+    "stem": "The hazardous attitude of 'resignation' is best described by which thought process?",
+    "options": [
+      "'I can do it, I'm the best.'",
+      "'What's the use? It's out of my hands now.'",
+      "'I need to do this quickly.'",
+      "'The rules are for other people.'"
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a feeling of helplessness, where the pilot believes they are just a passenger and can't influence the outcome. It can lead to them giving up and failing to take positive actions in an emergency.",
+    "tip": "The antidote is to remember that you are the Pilot in Command. You are never 'just along for the ride' and your actions can always make a difference."
+  },
+  {
+    "id": "hp_016",
+    "topic": "Human Performance",
+    "stem": "How can poor eyesight, even if corrected with glasses, affect a pilot's ability to maintain VLOS?",
+    "options": [
+      "It has no effect as long as you have glasses.",
+      "It can reduce your ability to spot your drone at a distance, judge its orientation, and see other air traffic.",
+      "It only affects your ability to read the controller screen.",
+      "It improves your night vision."
+    ],
+    "correctIndex": 1,
+    "explanation": "Good vision is critical for VLOS. Even with corrected vision, factors like glare, mist, or low light can degrade your ability to see effectively, reducing your safe operating distance.",
+    "tip": "Always have a spare pair of glasses or contact lenses in your flight kit if you need them to meet the legal driving standard of vision."
+  },
+  {
+    "id": "hp_017",
+    "topic": "Human Performance",
+    "stem": "What is 'peer pressure' in the context of human performance?",
+    "options": [
+      "The pressure to buy the latest drone model.",
+      "Pressure from colleagues or other pilots to fly in a way that makes you uncomfortable (e.g., faster, lower, or in poor weather).",
+      "A formal review of your flying skills by another pilot.",
+      "The feeling of being watched by the public."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is similar to commercial pressure, but it comes from within your own community. The desire to 'fit in' or show off can lead pilots to take risks they wouldn't take if they were flying alone.",
+    "tip": "A professional pilot has the self-confidence to stick to their own safety standards, regardless of what others are doing."
+  },
+  {
+    "id": "hp_018",
+    "topic": "Human Performance",
+    "stem": "The hazardous attitude of 'impulsivity' is best described as:",
+    "options": [
+      "The feeling that you need to do something, anything, immediately without thinking through the consequences.",
+      "A tendency to disobey rules you don't agree with.",
+      "The belief that you are immune to accidents.",
+      "Being too lazy to perform pre-flight checks."
+    ],
+    "correctIndex": 0,
+    "explanation": "This is the 'do it quick' attitude. An impulsive pilot might rush a pre-flight check or make a sudden control input in an emergency without first considering the best course of action.",
+    "tip": "The antidote is to consciously slow down. Think: 'Stop. Think. Act.'"
+  },
+  {
+    "id": "hp_019",
+    "topic": "Human Performance",
+    "stem": "Why is effective communication essential when flying with a visual observer?",
+    "options": [
+      "To pass the time during the flight.",
+      "To ensure that safety-critical information is passed between the crew clearly, concisely, and without ambiguity.",
+      "It is a legal requirement to use hand signals.",
+      "To tell the observer what to film."
+    ],
+    "correctIndex": 1,
+    "explanation": "Clear, closed-loop communication is vital. The pilot and VO should agree on standard phrases (e.g., 'aircraft, left, 10 o'clock, high') so that information can be understood and acted upon instantly.",
+    "tip": "A pre-flight crew brief is essential to establish communication protocols before you even take off."
+  },
+  {
+    "id": "hp_020",
+    "topic": "Human Performance",
+    "stem": "A pilot who ignores a recurring battery error warning because 'it's never been a problem before' is demonstrating which hazardous attitude?",
+    "options": [
+      "Macho",
+      "Resignation",
+      "Complacency",
+      "Anti-authority"
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a classic example of complacency. The pilot has become so used to the warning that they no longer treat it as a genuine threat, which is when the error is most likely to lead to an accident.",
+    "tip": "Treat every warning as if it's the first time you've seen it. Investigate the cause, don't just dismiss it."
+  },
+  {
+    "id": "hp_021",
+    "topic": "Human Performance",
+    "stem": "What is the 'recency effect' cognitive bias?",
+    "options": [
+      "The tendency to only remember recent events.",
+      "The tendency to give more importance to events that have happened recently.",
+      "The effect of repeating a flight in the same location.",
+      "A preference for new drones over old ones."
+    ],
+    "correctIndex": 1,
+    "explanation": "If a pilot has just completed ten successful flights, the recency effect might lead them to believe that the eleventh flight is also guaranteed to be safe, causing them to relax their vigilance.",
+    "tip": "Past success is not a guarantee of future safety. Approach every flight as if it's your first."
+  },
+  {
+    "id": "hp_022",
+    "topic": "Human Performance",
+    "stem": "What is the most effective way to manage stress before a complex flight?",
+    "options": [
+      "Ignore the feeling and hope it goes away.",
+      "Have a large caffeinated drink to increase alertness.",
+      "Use thorough planning, preparation, and checklists to build confidence and reduce uncertainty.",
+      "Rush the pre-flight checks to get airborne more quickly."
+    ],
+    "correctIndex": 2,
+    "explanation": "Stress often comes from uncertainty. Meticulous preparation—knowing your flight plan, having checked your gear, and having a solid risk assessment—is the best way to reduce that uncertainty and build the confidence needed for a safe flight.",
+    "tip": "If you feel unprepared, you will feel stressed. Good preparation is the best stress-reducer."
+  },
+  {
+    "id": "hp_023",
+    "topic": "Human Performance",
+    "stem": "The hazardous attitude of 'anti-authority' is best described as:",
+    "options": [
+      "A pilot who is afraid of flying.",
+      "A pilot who feels the rules and regulations are foolish and don't apply to them.",
+      "A pilot who always follows the checklist.",
+      "A pilot who defers all decisions to their client."
+    ],
+    "correctIndex": 1,
+    "explanation": "This pilot believes they are above the rules. They might disregard an FRZ because 'they're only going to be quick' or ignore separation distances because 'they know what they're doing'. It is an extremely dangerous attitude.",
+    "tip": "The antidote is to remember that the rules are there for a reason, based on decades of aviation safety experience."
+  },
+  {
+    "id": "hp_024",
+    "topic": "Human Performance",
+    "stem": "What is 'task saturation'?",
+    "options": [
+      "Completing all the tasks on your flight plan.",
+      "When a pilot is so overloaded with information and tasks that they can no longer effectively process new information or perform actions.",
+      "The feeling of satisfaction after a successful flight.",
+      "A drone's memory card being full."
+    ],
+    "correctIndex": 1,
+    "explanation": "Task saturation occurs when the pilot is trying to do too many things at once (e.g., fly a complex manoeuvre, talk to a client, and monitor a battery warning). Their mental capacity is exceeded, and performance drops off rapidly.",
+    "tip": "If you start to feel overwhelmed, simplify the situation. Stop trying to do everything. Focus on the most important thing: flying the drone safely."
+  },
+  {
+    "id": "hp_025",
+    "topic": "Human Performance",
+    "stem": "What is a key physical effect of cold weather on a remote pilot?",
+    "options": [
+      "It improves concentration.",
+      "It has no effect if you wear a coat.",
+      "Cold can cause numbness in the fingers, making fine and precise control of the sticks difficult.",
+      "It makes the controller battery last longer."
+    ],
+    "correctIndex": 2,
+    "explanation": "Flying a drone requires fine motor skills. When your hands are cold, your fingers become less sensitive and dexterous, which can lead to clumsy or incorrect stick inputs, especially in a delicate manoeuvre or an emergency.",
+    "tip": "Use fingerless gloves or a controller mitt to keep your hands warm while still allowing you to feel the controls."
+  },
+  {
+    "id": "hp_026",
+    "topic": "Human Performance",
+    "stem": "What is the primary risk of a 'get-there-itis' mindset?",
+    "options": [
+      "Arriving at the job site too early.",
+      "The strong desire to complete a mission, which can lead to ignoring deteriorating weather or warning signs.",
+      "Wanting to get home quickly after a job.",
+      "A desire to fly to new and interesting locations."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a common pressure, especially on commercial jobs. The pilot is so focused on 'getting the shot' that they might push on into worsening conditions or fly with a developing technical issue, instead of making the safe decision to abort.",
+    "tip": "Remember, it is always better to be on the ground wishing you were in the air, than to be in the air wishing you were on the ground."
+  },
+  {
+    "id": "hp_027",
+    "topic": "Human Performance",
+    "stem": "Why is it important to have a 'just culture' in a flight operation or company?",
+    "options": [
+      "It ensures that only the best pilots are allowed to fly.",
+      "It encourages pilots to report their mistakes and safety concerns without fear of punishment, allowing everyone to learn from them.",
+      "It means that all pilots are paid justly for their work.",
+      "It is a culture that focuses on justice and prosecuting pilots who make mistakes."
+    ],
+    "correctIndex": 1,
+    "explanation": "A 'just culture' is a safety culture where people are not blamed for honest errors, but are held accountable for willful violations. This open environment is critical for identifying and fixing safety issues before they cause an accident.",
+    "tip": "Even as a solo operator, you can apply a just culture to yourself. Analyse your mistakes honestly to learn from them, rather than just blaming yourself."
+  },
+  {
+    "id": "hp_028",
+    "topic": "Human Performance",
+    "stem": "A pilot is distracted by a text message on their phone while landing. This is an example of a failure in:",
+    "options": [
+      "Battery management.",
+      "Air law.",
+      "Threat and Error Management.",
+      "Weather forecasting."
+    ],
+    "correctIndex": 2,
+    "explanation": "The phone is a known 'threat'. Answering it during a critical phase of flight is an 'error'. A good TEM strategy would be to 'manage' this by having your phone on silent and out of reach during flight operations.",
+    "tip": "Apply the 'sterile flight deck' principle. All non-essential distractions should be eliminated during take-off and landing."
+  },
+  {
+    "id": "hp_029",
+    "topic": "Human Performance",
+    "stem": "What is the best way to maintain good situational awareness regarding other air traffic?",
+    "options": [
+      "Rely on your drone's built-in sensors to detect other aircraft.",
+      "Listen carefully for the sound of engines.",
+      "Conduct a continuous and methodical visual scan of the sky around your operating area.",
+      "Assume that other aircraft will see and avoid your drone."
+    ],
+    "correctIndex": 2,
+    "explanation": "The principle of 'see and avoid' is your primary defence against mid-air collision. This requires actively and continuously scanning the sky, not just in the immediate vicinity of your drone, but on the wider horizon as well.",
+    "tip": "A visual observer can be invaluable here, as they can dedicate their full attention to scanning while you focus on flying."
+  },
+  {
+    "id": "hp_030",
+    "topic": "Human Performance",
+    "stem": "Which of these is a symptom of dehydration?",
+    "options": [
+      "Increased alertness.",
+      "Headache, fatigue, and dizziness.",
+      "Improved night vision.",
+      "Faster reaction time."
+    ],
+    "correctIndex": 1,
+    "explanation": "Dehydration reduces blood flow to the brain, which can lead to a range of symptoms that are highly detrimental to a pilot's performance. Even mild dehydration can have a noticeable effect.",
+    "tip": "Drink water before you feel thirsty. By the time you feel thirsty, you are already dehydrated."
+  },
+  {
+    "id": "hp_031",
+    "topic": "Human Performance",
+    "stem": "Why is it important to debrief after a flight, especially if something unexpected occurred?",
+    "options": [
+      "To decide who was to blame.",
+      "To identify what went well, what went wrong, and what can be learned for future operations.",
+      "It is not important if the flight was successful.",
+      "To complete the paperwork for the client."
+    ],
+    "correctIndex": 1,
+    "explanation": "A debrief is a powerful learning tool. It allows you and your crew to analyse the flight honestly and identify lessons that can improve safety and efficiency on the next flight. This is a core part of professional airmanship.",
+    "tip": "Even on solo flights, take two minutes to ask yourself: 'What went well? What could I have done better?'"
+  },
+  {
+    "id": "hp_032",
+    "topic": "Human Performance",
+    "stem": "A pilot has not flown for six months. What is the biggest human performance risk on their first flight back?",
+    "options": [
+      "The drone's batteries will have degraded.",
+      "The regulations will have changed.",
+      "A degradation of practical flying skills and procedural memory.",
+      "The pilot's eyesight will have worsened."
+    ],
+    "correctIndex": 2,
+    "explanation": "Flying is a perishable skill. A long break can lead to 'skill fade', where the pilot is less smooth on the controls, slower to react in an emergency, and may forget steps in their normal procedures.",
+    "tip": "If you haven't flown for a while, perform a few simple warm-up flights in an open area to get 'current' again before undertaking any complex tasks."
+  },
+  {
+    "id": "hp_033",
+    "topic": "Human Performance",
+    "stem": "The 'availability heuristic' is a cognitive bias where people:",
+    "options": [
+      "Only fly when they are available.",
+      "Overestimate the likelihood of events that are easier to recall, such as those recently featured in the news.",
+      "Believe that things will always be available when they need them.",
+      "Check the availability of the airspace before flying."
+    ],
+    "correctIndex": 1,
+    "explanation": "For example, if there has been a lot of news about 'fly-aways', a pilot might become overly focused on that specific risk, while underestimating a more common but less dramatic risk, like a simple battery failure.",
+    "tip": "Base your risk assessment on objective facts and established procedures, not just on the dramatic stories you can easily remember."
+  },
+  {
+    "id": "hp_034",
+    "topic": "Human Performance",
+    "stem": "What is the best way to manage a distraction from a member of the public who wants to talk to you mid-flight?",
+    "options": [
+      "Ignore them completely.",
+      "Politely but firmly state that you are in the middle of a flight operation and will be happy to talk to them once you have safely landed.",
+      "Try to fly with one hand while talking to them with the other.",
+      "Land immediately, even if it's not a safe spot."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is the most professional and safe response. It acknowledges the person without compromising the safety of the flight by getting distracted. Your first priority is to aviate, navigate, communicate - in that order.",
+    "tip": "Having a visual observer or crew member to handle public interaction is the ideal solution."
+  },
+  {
+    "id": "hp_035",
+    "topic": "Human Performance",
+    "stem": "A pilot decides to fly a new, unfamiliar drone on a paid job without any practice flights. This action primarily demonstrates a lack of:",
+    "options": [
+      "Insurance",
+      "Airmanship",
+      "Good eyesight",
+      "A fast charger"
+    ],
+    "correctIndex": 1,
+    "explanation": "Good airmanship involves a professional attitude, sound judgment, and a commitment to safety. Undertaking a complex task without ensuring you are competent and familiar with the equipment is poor airmanship and needlessly increases risk.",
+    "tip": "Always conduct several non-operational practice flights with any new aircraft to become fully familiar with its flight characteristics and systems."
+  },
+  {
+    "id": "hp_036",
+    "topic": "Human Performance",
+    "stem": "What is 'spatial disorientation'?",
+    "options": [
+      "Not knowing your way back to the take-off location.",
+      "A state of confusion where a pilot is unable to correctly interpret the position, attitude, or movement of their aircraft.",
+      "Forgetting where you parked your car.",
+      "Flying in a location that is not suitable for drones."
+    ],
+    "correctIndex": 1,
+    "explanation": "This can happen easily with a drone, especially at a distance. For a moment, you might not be able to tell if the drone is coming towards you or moving away, which can lead to incorrect control inputs.",
+    "tip": "If you become disoriented, let go of the sticks. The drone's GPS will hold its position, giving you a moment to regain your bearings."
+  },
+  {
+    "id": "hp_037",
+    "topic": "Human Performance",
+    "stem": "You are about to fly, but you have a strong gut feeling that something isn't right, even though all your checks are complete. What should you do?",
+    "options": [
+      "Ignore the feeling and fly anyway, as the checks are all green.",
+      "Trust your intuition. Postpone the flight and conduct a more thorough investigation to find out what is bothering you.",
+      "Ask your client if they think it's safe to fly.",
+      "Fly, but be extra cautious."
+    ],
+    "correctIndex": 1,
+    "explanation": "Experienced aviators often talk about the importance of intuition. That uneasy feeling is often your subconscious picking up on a small detail that your conscious mind has missed. It should never be ignored.",
+    "tip": "This is a sign of good situational awareness. The safest decision is always to pause and re-evaluate."
+  },
+  {
+    "id": "hp_038",
+    "topic": "Human Performance",
+    "stem": "Why is it a bad idea to fly when you are angry or upset?",
+    "options": [
+      "It can cause the drone to fly erratically.",
+      "Strong emotions can lead to aggressive flying, distraction, and poor, impulsive decision-making.",
+      "It has no effect on flying, only on your mood.",
+      "It can drain the controller's battery faster."
+    ],
+    "correctIndex": 1,
+    "explanation": "Flying requires a calm, clear, and focused mind. Strong emotions, whether positive (excitement) or negative (anger), can cloud your judgment and take your focus away from the task of flying safely.",
+    "tip": "This is the 'E' in the IMSAFE checklist (Emotion). If you are not in a calm state of mind, you are not fit to fly."
+  },
+  {
+    "id": "hp_039",
+    "topic": "Human Performance",
+    "stem": "The 'DECIDE' model is a tool for aeronautical decision making. What does the 'D' stand for?",
+    "options": [
+      "Descend",
+      "Declare",
+      "Detect",
+      "Debrief"
+    ],
+    "correctIndex": 2,
+    "explanation": "The DECIDE model stands for: Detect the change or problem, Estimate the significance, Choose a safe outcome, Identify actions, Do the necessary actions, Evaluate the result.",
+    "tip": "This provides a structured mental checklist to follow when you are faced with an unexpected problem in the air."
+  },
+  {
+    "id": "hp_040",
+    "topic": "Human Performance",
+    "stem": "What is the primary danger of 'visual illusions', such as misjudging distance over water?",
+    "options": [
+      "They can make your video footage look strange.",
+      "They can cause the pilot to misinterpret the drone's position or altitude, leading to a collision.",
+      "They only happen at night.",
+      "They can cause the GPS to become inaccurate."
+    ],
+    "correctIndex": 1,
+    "explanation": "Flying over a calm body of water with no texture can make it very difficult to judge your drone's height. This can lead to the pilot accidentally flying into the water while trying to get a low shot.",
+    "tip": "When flying in environments that can cause visual illusions (over water, snow, or in hazy conditions), rely more on your drone's telemetry (altitude reading) than your own perception."
+  },
+  {
+    "id": "hp_041",
+    "topic": "Human Performance",
+    "stem": "What is the best way to counteract the hazardous attitude of 'impulsivity'?",
+    "options": [
+      "Act quickly to show you are decisive.",
+      "Follow your first instinct without question.",
+      "Consciously slow down and think through the consequences before acting.",
+      "Ask someone else what to do."
+    ],
+    "correctIndex": 2,
+    "explanation": "The antidote to impulsivity is to force a pause. By taking a moment to think 'What is the safest course of action here?', you can override the instinctive urge to just 'do something'.",
+    "tip": "In an emergency, remember the mantra: Aviate, Navigate, Communicate. First, fly the aircraft. Second, figure out where to go. Third, tell someone."
+  },
+  {
+    "id": "hp_042",
+    "topic": "Human Performance",
+    "stem": "How can a remote pilot's physical health impact flight safety?",
+    "options": [
+      "It has no impact.",
+      "Poor health can reduce stamina and concentration, and a sudden medical event could be catastrophic.",
+      "Only affects pilots of large, heavy-lift drones.",
+      "It only matters if the pilot needs to walk a long way to the take-off spot."
+    ],
+    "correctIndex": 1,
+    "explanation": "A pilot must be in good health. A sudden dizzy spell, a heart palpitation, or even a severe cramp could lead to a loss of control. This is the 'I' (Illness) in the IMSAFE checklist.",
+    "tip": "If you feel unwell, do not fly. The risk is not worth it."
+  },
+  {
+    "id": "hp_043",
+    "topic": "Human Performance",
+    "stem": "You are a very experienced pilot asked to do a simple job. Why is this situation potentially risky?",
+    "options": [
+      "It is not risky at all for an experienced pilot.",
+      "The client may not be willing to pay much for a simple job.",
+      "This is a classic scenario for complacency, where the experienced pilot may skip checks or not take the 'simple' job seriously.",
+      "An experienced pilot may not have the latest drone."
+    ],
+    "correctIndex": 2,
+    "explanation": "Accidents often happen to experienced pilots on 'easy' jobs. The perceived low risk can lead to overconfidence and complacency, causing the pilot to let their guard down.",
+    "tip": "Treat every flight with the same level of professionalism and preparation, no matter how simple it seems."
+  },
+  {
+    "id": "hp_044",
+    "topic": "Human Performance",
+    "stem": "What is 'workload management' for a solo pilot?",
+    "options": [
+      "Ensuring you get paid for all the work you do.",
+      "Spreading out your flights over a long period.",
+      "Actively managing your tasks to ensure you don't become overloaded, especially during critical phases of flight.",
+      "Only taking on easy jobs."
+    ],
+    "correctIndex": 2,
+    "explanation": "This involves planning your flight to keep your workload low at the busiest times. For example, programming camera settings on the ground before take-off, rather than trying to do it in the air while also trying to fly.",
+    "tip": "Automate where you can, and simplify where you can't. The goal is to keep your mental capacity free to handle the unexpected."
+  },
+  {
+    "id": "hp_045",
+    "topic": "Human Performance",
+    "stem": "Why is it a good practice to brief 'involved persons' (like a client watching) on what you will do in an emergency?",
+    "options": [
+      "To impress them with your knowledge.",
+      "So they can help you fly the drone.",
+      "To ensure they know how to react safely and not panic or interfere if something goes wrong.",
+      "It is not a good practice as it may worry them."
+    ],
+    "correctIndex": 2,
+    "explanation": "A good safety briefing should include instructions like 'If I shout 'landing now', please step back to this safe point'. This ensures that in an emergency, they will react in a predictable and safe manner, helping you manage the situation.",
+    "tip": "Keep the briefing simple and clear, focusing on their actions, not the technical details of the failure."
+  },
+  {
+    "id": "hp_046",
+    "topic": "Human Performance",
+    "stem": "The 'fundamental attribution error' is a bias where people tend to:",
+    "options": [
+      "Attribute their own successes to skill, but their failures to external factors (like the wind).",
+      "Attribute other people's failures to their character, but their own failures to external factors.",
+      "Always attribute failures to the equipment.",
+      "Not attribute any cause to an accident."
+    ],
+    "correctIndex": 1,
+    "explanation": "For example: 'He crashed because he's a bad pilot. I crashed because I had a sudden radio glitch'. This bias can prevent pilots from learning from their own mistakes by blaming them on outside forces.",
+    "tip": "When you make a mistake, honestly analyse your own role in the error. It's the only way to improve."
+  },
+  {
+    "id": "hp_047",
+    "topic": "Human Performance",
+    "stem": "What is the best way to improve your decision-making skills as a pilot?",
+    "options": [
+      "By always flying in challenging conditions.",
+      "By learning from experience, debriefing your flights, studying accident reports, and using decision-making models like DECIDE.",
+      "By buying a more automated drone that makes decisions for you.",
+      "By always flying with a more experienced pilot."
+    ],
+    "correctIndex": 1,
+    "explanation": "Good decision-making is a learned skill. It comes from a combination of theoretical knowledge (learning the principles), practical experience, and a commitment to honestly analysing your own performance and learning from it.",
+    "tip": "Reading through AAIB reports on drone incidents is a sobering but incredibly valuable way to learn from the mistakes of others."
+  },
+  {
+    "id": "hp_048",
+    "topic": "Human Performance",
+    "stem": "You are about to pack up after a long day of flying. Why is this a risky period?",
+    "options": [
+      "It is not risky; the flying is over.",
+      "Fatigue is likely to be at its highest, which can lead to mistakes like mishandling batteries or forgetting to properly secure equipment.",
+      "You might be in a rush to get home.",
+      "The drone's batteries will be empty."
+    ],
+    "correctIndex": 1,
+    "explanation": "The post-flight phase is still an operational phase. This is when LiPo batteries might be mishandled, or equipment might be damaged by being packed away carelessly due to fatigue or a desire to rush home.",
+    "tip": "Use a post-flight checklist just as you use a pre-flight one to ensure everything is done correctly and safely, right up to the very end of the job."
+  },
+  {
+    "id": "hp_049",
+    "topic": "Human Performance",
+    "stem": "A 'threat' in the TEM framework is defined as:",
+    "options": [
+      "A mistake the pilot makes.",
+      "Any event or condition outside the pilot's control that increases the operational complexity and requires management.",
+      "A complaint from a member of the public.",
+      "An error in the drone's software."
+    ],
+    "correctIndex": 1,
+    "explanation": "Threats are external factors. Examples include: deteriorating weather, a low-flying aircraft, a member of the public approaching, or a tight landing spot. They are not errors in themselves, but they are conditions that could lead to an error if not managed properly.",
+    "tip": "During your site survey, actively identify all the potential threats in your operating area."
+  },
+  {
+    "id": "hp_050",
+    "topic": "Human Performance",
+    "stem": "Why is it important to have a professional and courteous attitude when interacting with the public?",
+    "options": [
+      "It can help de-escalate potential conflicts and reflects positively on the entire drone community.",
+      "It is not important; your only focus should be on the drone.",
+      "It can help you get more clients.",
+      "The public has no right to question your operation."
+    ],
+    "correctIndex": 0,
+    "explanation": "As a drone pilot, you are an ambassador for the industry. A professional and educational approach can turn a suspicious member of the public into an interested observer, while a poor attitude can lead to complaints and further restrictions for everyone.",
+    "tip": "Be prepared to explain what you are doing, show them the view from the drone if appropriate, and always be polite and professional."
+  }
+]
+
+
